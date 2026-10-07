@@ -4,44 +4,50 @@
 
 | Name                                                                             |    Stmts |     Miss |   Cover |   Missing |
 |--------------------------------------------------------------------------------- | -------: | -------: | ------: | --------: |
-| python/hopsworks/\_\_init\_\_.py                                                 |      243 |       82 |     66% |62, 77-79, 83-85, 95-97, 149, 152, 155, 164-166, 277, 305, 309, 317, 342, 368-370, 397-402, 416, 446, 452, 462, 464-496, 508, 539-541, 584-601, 612-614, 625-627, 631-633, 643, 653 |
+| python/hopsworks/\_\_init\_\_.py                                                 |      251 |       81 |     68% |78-80, 84-86, 96-98, 150, 153, 156, 165-167, 278, 306, 310, 318, 343, 369-371, 398-403, 417, 447, 453, 463, 465-497, 510, 542-544, 589-606, 617-619, 644-646, 657-659, 677, 687 |
 | python/hopsworks/alert/\_\_init\_\_.py                                           |        6 |        6 |      0% |      5-10 |
 | python/hopsworks/alert\_receiver/\_\_init\_\_.py                                 |        6 |        6 |      0% |      5-10 |
 | python/hopsworks/app/\_\_init\_\_.py                                             |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/cli/\_\_init\_\_.py                                             |        0 |        0 |    100% |           |
 | python/hopsworks/cli/\_\_main\_\_.py                                             |        3 |        3 |      0% |       3-7 |
-| python/hopsworks/cli/auth.py                                                     |       39 |        5 |     87% |38, 101, 103, 121, 123 |
+| python/hopsworks/cli/auth.py                                                     |       45 |        2 |     96% |   40, 106 |
 | python/hopsworks/cli/commands/\_\_init\_\_.py                                    |        0 |        0 |    100% |           |
-| python/hopsworks/cli/commands/agent.py                                           |      162 |       37 |     77% |39-40, 70-85, 143-144, 170-171, 196-197, 230-231, 236-237, 240-241, 309-321, 331-332, 334-335, 355, 358-359, 372-373, 406 |
+| python/hopsworks/cli/commands/agent.py                                           |      184 |       47 |     74% |39-40, 70-86, 144-145, 171-172, 197-198, 231-232, 237-238, 241-242, 330-331, 333-334, 340-352, 362-363, 365-366, 386, 389-390, 403-404, 438-446, 459 |
 | python/hopsworks/cli/commands/alert.py                                           |      321 |      117 |     64% |68-69, 107-108, 125-126, 129-135, 175-176, 178-179, 202-203, 228-250, 297-312, 340-341, 344-345, 347-348, 363-370, 436-437, 454-455, 457-458, 483-484, 502-509, 537-538, 540-541, 567-575, 607-608, 612-613, 639-647, 675-688, 701-702, 710-715, 720-726, 735, 739, 741 |
-| python/hopsworks/cli/commands/app.py                                             |      288 |       32 |     89% |42-43, 123, 166, 171-172, 224-225, 356, 361, 371, 378, 380, 415-416, 480-481, 511-512, 526-527, 553, 560-561, 578-579, 604, 615, 622-623, 627, 642 |
+| python/hopsworks/cli/commands/app.py                                             |      295 |       33 |     89% |42-43, 127, 170, 175-176, 228-229, 368, 373, 383, 390, 392, 419, 429-430, 494-495, 525-526, 540-541, 567, 574-575, 592-593, 618, 629, 636-637, 641, 656 |
 | python/hopsworks/cli/commands/context.py                                         |       88 |       24 |     73% |112, 124-131, 134-137, 140-145, 148-155, 187, 231-232 |
-| python/hopsworks/cli/commands/datasource.py                                      |      231 |       73 |     68% |62-63, 67-70, 82-97, 101, 194, 196, 198, 252, 289, 291, 361-378, 395, 406-407, 425-426, 428-429, 445-459, 472-482, 513-514, 527-528, 531-532, 544, 559-560 |
-| python/hopsworks/cli/commands/deployment.py                                      |      212 |       64 |     70% |36-37, 68-69, 73-86, 99-104, 124, 149, 215, 219-220, 222, 228-243, 253-254, 285-286, 311-312, 341, 345-346, 351-352, 355-356, 428-444, 454-455, 457-458, 478, 481-482, 524-525, 527 |
-| python/hopsworks/cli/commands/env.py                                             |       55 |       33 |     40% |26, 30, 45-50, 93-113, 146-168 |
-| python/hopsworks/cli/commands/fg.py                                              |      449 |      163 |     64% |137-138, 150-151, 257-259, 290, 292, 382-414, 504-553, 603-612, 618-619, 623, 625, 668-707, 742, 745-746, 789, 791, 804-805, 831-832, 836-862, 906-907, 910-913, 935-936, 939-940, 966-967, 990-991, 1000-1006, 1021-1022, 1032-1034, 1047, 1054, 1078-1098, 1120, 1129-1137, 1144, 1148-1151 |
+| python/hopsworks/cli/commands/datasource.py                                      |      384 |       61 |     84% |70-71, 75-78, 90-105, 109, 159, 282, 284, 286, 340, 449, 1292, 1303-1304, 1322-1323, 1325-1326, 1342-1356, 1369-1379, 1410-1411, 1424-1425, 1428-1429, 1441, 1458-1459 |
+| python/hopsworks/cli/commands/deployment.py                                      |      285 |      107 |     62% |36-37, 68-69, 73-89, 118-159, 163-166, 170-178, 191-196, 216, 241, 338, 342-343, 345, 351-366, 379-380, 394, 428-429, 454-455, 495, 499-500, 505-506, 509-510, 604-605, 607-608, 614-630, 640-641, 643-644, 664, 667-668, 710-711, 713 |
+| python/hopsworks/cli/commands/env.py                                             |       72 |       21 |     71% |32, 48-52, 95-115, 172-173, 207-208, 210 |
+| python/hopsworks/cli/commands/fg.py                                              |      487 |      168 |     66% |138-139, 151-152, 258-260, 291, 293, 383-415, 505-554, 604-613, 619-620, 624, 626, 669-708, 743, 746-747, 790, 792, 805-806, 832-833, 837-863, 907-908, 911-914, 946-947, 950-953, 992-993, 1017-1018, 1037-1038, 1063-1064, 1085-1086, 1095-1101, 1116-1117, 1127-1129, 1142, 1149, 1173-1193, 1215, 1224-1232, 1236-1239 |
 | python/hopsworks/cli/commands/files.py                                           |      103 |       31 |     70% |43-44, 77-78, 115-116, 141-148, 181-190, 214-221, 237, 241-242 |
-| python/hopsworks/cli/commands/fv.py                                              |      233 |       85 |     64% |67-68, 86-96, 143-144, 170-186, 282-283, 289-290, 293-294, 318-319, 349-350, 355-356, 361, 399-425, 453-454, 457, 463-464, 474-478, 488, 499, 508-528, 532-540 |
-| python/hopsworks/cli/commands/init.py                                            |       66 |        3 |     95% |59, 98, 143 |
-| python/hopsworks/cli/commands/job.py                                             |      327 |      149 |     54% |32, 35-42, 52, 54-58, 78-79, 108-109, 113-124, 128-141, 184-197, 266-318, 370, 379-380, 389, 438-459, 472-480, 527, 530-533, 540-541, 545-546, 555-556, 559-560, 711-712, 715, 728-742, 758-759, 775-782, 788, 792, 800-801, 803, 810-811, 817, 826-829 |
+| python/hopsworks/cli/commands/fv.py                                              |      317 |      127 |     60% |57-58, 91-101, 171-187, 283-284, 290-291, 294-295, 319-320, 381-410, 442-443, 448, 486-508, 536, 542-543, 559-564, 585-590, 607-612, 627-639, 658-663, 682-687, 696-700, 710, 721, 730-750, 754-762 |
+| python/hopsworks/cli/commands/git.py                                             |       81 |       10 |     88% |141-142, 144-147, 203-212, 225-228, 251-252 |
+| python/hopsworks/cli/commands/init.py                                            |        8 |        0 |    100% |           |
+| python/hopsworks/cli/commands/job.py                                             |      375 |      176 |     53% |32, 35-42, 52, 54-58, 78-79, 108-109, 113-126, 130-143, 191-206, 275-327, 379, 388-389, 398, 447-468, 481-489, 536, 539-542, 549-550, 554-555, 564-565, 568-569, 720-721, 724, 737-751, 767-768, 784-791, 804-809, 826-831, 846-851, 866-872, 878, 882, 890-891, 893, 900-901, 907, 916-919 |
 | python/hopsworks/cli/commands/login.py                                           |       27 |       17 |     37% |     53-84 |
+| python/hopsworks/cli/commands/logout.py                                          |       18 |        1 |     94% |        33 |
 | python/hopsworks/cli/commands/model.py                                           |      163 |       54 |     67% |66-69, 72, 91-107, 112, 207, 212-215, 219-223, 238-239, 272-273, 291-298, 339-346, 351, 356, 360-361 |
-| python/hopsworks/cli/commands/project.py                                         |       52 |       36 |     31% |22-43, 56-74, 85-96, 100 |
-| python/hopsworks/cli/commands/search.py                                          |       56 |       38 |     32% |78-126, 135-141, 150-160 |
-| python/hopsworks/cli/commands/setup.py                                           |      159 |       53 |     67% |53-60, 81, 85-91, 113, 151-169, 204, 305, 315-321, 333-334, 340-341, 354, 376-377, 411-412, 427-433 |
-| python/hopsworks/cli/commands/skills.py                                          |       95 |       33 |     65% |31-32, 39-41, 47, 66-67, 69, 141-154, 168-190 |
+| python/hopsworks/cli/commands/project.py                                         |       51 |        6 |     88% |63-64, 107-118 |
+| python/hopsworks/cli/commands/search.py                                          |       48 |        4 |     92% |110, 128-129, 187 |
+| python/hopsworks/cli/commands/session.py                                         |      753 |      294 |     61% |51-53, 169, 247-248, 293-294, 331-332, 363-367, 374, 426, 456-460, 503, 599, 615-621, 804-805, 833, 845, 880-893, 910, 951-996, 1052, 1063-1070, 1074, 1080, 1116, 1127-1128, 1146-1153, 1162-1190, 1197, 1201, 1220, 1258, 1262, 1273-1286, 1289-1295, 1308-1330, 1354-1397, 1411-1437, 1467-1473, 1502-1503, 1526-1534, 1567-1570, 1580-1589, 1599-1609, 1619-1636, 1654-1720, 1736-1781, 1806-1830 |
+| python/hopsworks/cli/commands/setup.py                                           |      248 |       50 |     80% |77-84, 105, 113-114, 137, 175-193, 228, 368-371, 385, 389-390, 403, 449, 479-482, 511-512, 598-600, 605, 607, 609, 629, 632 |
+| python/hopsworks/cli/commands/skills.py                                          |      163 |       27 |     83% |47, 80-81, 83, 167-168, 172, 192-214, 291, 298, 358-361, 389-390, 394 |
 | python/hopsworks/cli/commands/superset.py                                        |      138 |       38 |     72% |51-52, 91-101, 116-122, 141-142, 155, 199-200, 217, 220-221, 255, 278-279, 295-301, 328-330, 336-337, 345 |
-| python/hopsworks/cli/commands/td.py                                              |      147 |       55 |     63% |53-54, 60-61, 132-133, 141, 184-212, 239-253, 320-321, 332, 335-337, 348, 352-353, 360-368 |
+| python/hopsworks/cli/commands/td.py                                              |      191 |       77 |     60% |53-54, 60-61, 135-136, 144, 187-215, 242-256, 335-347, 372-377, 404-409, 418-419, 430, 433-435, 446, 450-451, 458-466 |
 | python/hopsworks/cli/commands/transformation.py                                  |       84 |       13 |     85% |36-37, 98, 103-104, 115-116, 173, 180-181, 184, 191, 194 |
 | python/hopsworks/cli/commands/trino.py                                           |      134 |       80 |     40% |45, 64-65, 70-71, 76-85, 90-95, 108-110, 114-116, 127-154, 220-231, 251, 264, 279-285, 300-305, 319-330 |
 | python/hopsworks/cli/commands/update.py                                          |       49 |       15 |     69% |54, 69-70, 73, 76, 87-96, 107-108 |
 | python/hopsworks/cli/config.py                                                   |      155 |       22 |     86% |75, 89, 105, 109-110, 119-121, 140, 144, 149-151, 168-169, 245, 247, 331-337 |
+| python/hopsworks/cli/git\_sync.py                                                |      375 |      140 |     63% |73-74, 139-163, 172-197, 224-225, 231-232, 258-259, 264-287, 336, 358-360, 367-382, 387-397, 402-412, 421-480, 505, 522-524, 538-545, 548-550, 575-576, 581-583, 612, 663-664, 666, 684, 697, 701-702, 709-715, 722, 740 |
 | python/hopsworks/cli/joinspec.py                                                 |       18 |        0 |    100% |           |
 | python/hopsworks/cli/lineage.py                                                  |       33 |        4 |     88% | 55, 62-64 |
-| python/hopsworks/cli/main.py                                                     |       67 |        7 |     90% |59-60, 168, 242-244, 256 |
-| python/hopsworks/cli/output.py                                                   |       68 |        5 |     93% |73, 159, 171, 183, 194 |
-| python/hopsworks/cli/session.py                                                  |       52 |        8 |     85% |72, 90-91, 107, 109-111, 129 |
+| python/hopsworks/cli/main.py                                                     |      114 |        9 |     92% |87, 103, 122-123, 265, 343-345, 357 |
+| python/hopsworks/cli/output.py                                                   |       85 |        8 |     91% |73, 95, 112-113, 124-133, 247, 258 |
+| python/hopsworks/cli/scaffold.py                                                 |      121 |        4 |     97% |177, 205, 208, 308 |
+| python/hopsworks/cli/session.py                                                  |       49 |        8 |     84% |70, 82-83, 99, 101-103, 121 |
 | python/hopsworks/cli/templates/\_\_init\_\_.py                                   |        0 |        0 |    100% |           |
+| python/hopsworks/cli/terminal\_api.py                                            |       18 |        3 |     83% |     93-97 |
 | python/hopsworks/client/\_\_init\_\_.py                                          |       15 |        0 |    100% |           |
 | python/hopsworks/client/auth/\_\_init\_\_.py                                     |        4 |        4 |      0% |       5-8 |
 | python/hopsworks/client/base/\_\_init\_\_.py                                     |        2 |        2 |      0% |       5-6 |
@@ -50,8 +56,8 @@
 | python/hopsworks/client/hopsworks/\_\_init\_\_.py                                |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/command/\_\_init\_\_.py                                         |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/connection/\_\_init\_\_.py                                      |        2 |        2 |      0% |       5-6 |
-| python/hopsworks/constants.py                                                    |        2 |        2 |      0% |     17-45 |
-| python/hopsworks/core/\_\_init\_\_.py                                            |        5 |        5 |      0% |       5-9 |
+| python/hopsworks/constants.py                                                    |        2 |        2 |      0% |     17-44 |
+| python/hopsworks/core/\_\_init\_\_.py                                            |       10 |       10 |      0% |      5-14 |
 | python/hopsworks/core/alerts\_api/\_\_init\_\_.py                                |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/app\_api/\_\_init\_\_.py                                   |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/dataset\_api/\_\_init\_\_.py                               |        3 |        3 |      0% |       5-7 |
@@ -69,10 +75,12 @@
 | python/hopsworks/core/job\_api/\_\_init\_\_.py                                   |        3 |        3 |      0% |       5-7 |
 | python/hopsworks/core/job\_configuration/\_\_init\_\_.py                         |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/kafka\_api/\_\_init\_\_.py                                 |        2 |        2 |      0% |       5-6 |
+| python/hopsworks/core/keywords\_api/\_\_init\_\_.py                              |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/library\_api/\_\_init\_\_.py                               |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/opensearch/\_\_init\_\_.py                                 |        3 |        3 |      0% |       5-7 |
 | python/hopsworks/core/opensearch\_api/\_\_init\_\_.py                            |        3 |        3 |      0% |       5-7 |
 | python/hopsworks/core/project\_api/\_\_init\_\_.py                               |        2 |        2 |      0% |       5-6 |
+| python/hopsworks/core/project\_members\_api/\_\_init\_\_.py                      |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/rest\_endpoint/\_\_init\_\_.py                             |       12 |       12 |      0% |      5-16 |
 | python/hopsworks/core/search\_api/\_\_init\_\_.py                                |       12 |       12 |      0% |      5-16 |
 | python/hopsworks/core/secret\_api/\_\_init\_\_.py                                |        2 |        2 |      0% |       5-6 |
@@ -81,6 +89,8 @@
 | python/hopsworks/core/tag\_schemas\_api/\_\_init\_\_.py                          |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/tags\_api/\_\_init\_\_.py                                  |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/trino\_api/\_\_init\_\_.py                                 |        2 |        2 |      0% |       5-6 |
+| python/hopsworks/core/trino\_catalog\_api/\_\_init\_\_.py                        |        2 |        2 |      0% |       5-6 |
+| python/hopsworks/core/users\_api/\_\_init\_\_.py                                 |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/core/variable\_api/\_\_init\_\_.py                              |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/decorators/\_\_init\_\_.py                                      |        8 |        8 |      0% |      5-12 |
 | python/hopsworks/engine/\_\_init\_\_.py                                          |        0 |        0 |    100% |           |
@@ -125,25 +135,26 @@
 | python/hopsworks/mcp/utils/auth.py                                               |       11 |        6 |     45% |     57-76 |
 | python/hopsworks/mcp/utils/tags.py                                               |       15 |        0 |    100% |           |
 | python/hopsworks/project/\_\_init\_\_.py                                         |        2 |        0 |    100% |           |
+| python/hopsworks/project\_member/\_\_init\_\_.py                                 |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/secret/\_\_init\_\_.py                                          |        2 |        2 |      0% |       5-6 |
-| python/hopsworks/spark.py                                                        |       17 |       17 |      0% |     18-95 |
+| python/hopsworks/spark.py                                                        |       17 |       17 |      0% |     18-98 |
 | python/hopsworks/tag/\_\_init\_\_.py                                             |        2 |        2 |      0% |       5-6 |
 | python/hopsworks/triggered\_alert/\_\_init\_\_.py                                |        2 |        2 |      0% |       5-6 |
-| python/hopsworks/user/\_\_init\_\_.py                                            |        2 |        2 |      0% |       5-6 |
+| python/hopsworks/user/\_\_init\_\_.py                                            |        3 |        3 |      0% |       5-7 |
 | python/hopsworks/util/\_\_init\_\_.py                                            |       31 |       31 |      0% |      5-35 |
 | python/hopsworks/version.py                                                      |        2 |        2 |      0% |     17-22 |
 | python/hopsworks\_common/\_\_init\_\_.py                                         |        0 |        0 |    100% |           |
 | python/hopsworks\_common/alert.py                                                |      160 |       48 |     70% |97-109, 123, 135, 141, 147, 153, 156, 164, 173, 176, 196-207, 213, 219, 225, 229, 241, 260-270, 276, 282, 286, 297, 317-328, 334, 340, 346, 350, 362, 383-395, 401, 407, 413, 419, 423, 436 |
 | python/hopsworks\_common/alert\_receiver.py                                      |      212 |       94 |     56% |32-37, 40, 48, 69, 74, 77, 81, 87, 90, 100-105, 108, 116, 137, 142, 145, 149, 155, 158, 169-177, 180, 184, 199-201, 205-208, 213, 218, 221, 225, 232, 235, 245-250, 253, 257, 278, 283, 286, 290, 296, 299, 346-347, 359, 365, 371, 377, 380, 384-399, 402, 405-413, 416 |
 | python/hopsworks\_common/alert\_route.py                                         |       50 |       12 |     76% |50-51, 56, 61, 66, 71, 76, 86, 89, 93, 104, 107 |
-| python/hopsworks\_common/app.py                                                  |      285 |       14 |     95% |130, 139, 177, 247, 253, 334, 419-422, 466-467, 529, 535 |
-| python/hopsworks\_common/client/\_\_init\_\_.py                                  |       67 |       20 |     70% |43-59, 67, 74, 77, 83, 92, 98, 107, 113, 120, 129, 135, 149, 157 |
-| python/hopsworks\_common/client/auth.py                                          |       36 |       14 |     61% |39-40, 52, 55-56, 71-72, 77-83 |
-| python/hopsworks\_common/client/base.py                                          |      211 |       55 |     74% |73-78, 86-91, 95, 99, 103-104, 115, 118-119, 158, 186, 190, 215, 344, 349, 355, 376, 383-395, 400-402, 410-415, 419-425, 429-437 |
+| python/hopsworks\_common/app.py                                                  |      297 |       16 |     95% |134, 143, 181, 239, 255, 267, 273, 354, 439-442, 486-487, 551, 557 |
+| python/hopsworks\_common/client/\_\_init\_\_.py                                  |       87 |       15 |     83% |45-61, 69, 82, 95, 128, 136, 146, 186, 194 |
+| python/hopsworks\_common/client/auth.py                                          |       36 |       12 |     67% |39-40, 52, 55-56, 77-83 |
+| python/hopsworks\_common/client/base.py                                          |      231 |       53 |     77% |74-79, 87-92, 96, 100, 104-105, 116, 119-120, 162, 192, 196, 225, 354, 359, 365, 386, 393-405, 431, 441-443, 451-455, 459-464, 468-475 |
 | python/hopsworks\_common/client/exceptions.py                                    |      148 |        8 |     95% |48-50, 56, 155-159, 167, 179 |
-| python/hopsworks\_common/client/external.py                                      |      205 |       86 |     58% |63-106, 109-203, 265-288, 386-387, 395-399, 426, 429, 433, 437 |
+| python/hopsworks\_common/client/external.py                                      |      206 |       74 |     64% |63-106, 121, 127-139, 144-189, 192-196, 271-294, 392-393, 401-405, 432, 435, 439, 443 |
 | python/hopsworks\_common/client/hopsworks.py                                     |      102 |       63 |     38% |56-82, 86-92, 96, 99, 102, 105, 113-118, 126-131, 134-142, 145-149, 157-164, 175, 178, 182 |
-| python/hopsworks\_common/client/istio/\_\_init\_\_.py                            |       12 |        6 |     50% | 29-34, 39 |
+| python/hopsworks\_common/client/istio/\_\_init\_\_.py                            |       14 |        5 |     64% |     29-34 |
 | python/hopsworks\_common/client/istio/base.py                                    |       30 |       13 |     57% |52-57, 65-70, 74, 77 |
 | python/hopsworks\_common/client/istio/external.py                                |       27 |       13 |     52% |44-55, 59, 70, 73, 77 |
 | python/hopsworks\_common/client/istio/grpc/\_\_init\_\_.py                       |        0 |        0 |    100% |           |
@@ -155,21 +166,26 @@
 | python/hopsworks\_common/client/istio/grpc/proto/grpc\_predict\_v2\_pb2\_grpc.py |       76 |       43 |     43% |39-74, 91-93, 102-104, 113-115, 127-129, 141-143, 155-157, 166-168, 177-179, 183-228, 248, 277, 306, 335, 364, 393, 422, 451 |
 | python/hopsworks\_common/client/istio/hopsworks.py                               |       60 |       29 |     52% |52-64, 67-76, 79-83, 86, 90-92, 103, 106 |
 | python/hopsworks\_common/client/istio/utils/\_\_init\_\_.py                      |        0 |        0 |    100% |           |
-| python/hopsworks\_common/client/istio/utils/infer\_type.py                       |      330 |      253 |     23% |55, 75-105, 121-123, 126-129, 140, 151, 159, 190-197, 202, 207, 212, 217, 222, 231, 234-241, 259-316, 320-336, 366-375, 379-389, 404-417, 425-452, 465-474, 500-507, 518, 529, 534, 545, 556, 564, 572-579, 595-652, 683-692, 696-706, 717-727, 740-755, 763-790 |
+| python/hopsworks\_common/client/istio/utils/infer\_type.py                       |      330 |      234 |     29% |55, 75-105, 121-123, 126-129, 140, 151, 159, 217, 222, 231, 234-241, 259-316, 320-336, 374-375, 379-389, 404-417, 425-452, 465-474, 500-507, 518, 529, 534, 545, 556, 564, 572-579, 595-652, 683-692, 696-706, 717-727, 740-755, 763-790 |
 | python/hopsworks\_common/client/istio/utils/numpy\_codec.py                      |       35 |       29 |     17% |24-39, 44-70 |
-| python/hopsworks\_common/client/online\_store\_rest\_client.py                   |      202 |       76 |     62% |52-58, 69-73, 75, 107, 111, 132-144, 159, 161, 165, 168, 174, 182, 185, 190-193, 196-200, 203, 229, 238, 253, 258-261, 283, 291, 296, 301, 307, 319-331, 339, 346, 355, 361, 371, 376-377, 388-401, 406, 414, 419, 427 |
-| python/hopsworks\_common/command.py                                              |       25 |       14 |     44% |38-45, 49-52, 56, 60 |
-| python/hopsworks\_common/connection.py                                           |      242 |      100 |     59% |178-180, 224, 256, 271-282, 292, 305, 314-329, 348-421, 470-481, 559, 573, 578, 582, 587, 591, 596, 600, 605, 609, 614, 623, 627, 631, 636, 645-648, 653, 658, 661-662, 665 |
-| python/hopsworks\_common/constants.py                                            |      183 |        2 |     99% |    25, 28 |
+| python/hopsworks\_common/client/online\_store\_rest\_client.py                   |      338 |       65 |     81% |73, 92-98, 109-113, 115, 151, 155, 180-187, 202, 204, 208, 211, 217, 225, 244, 276, 285, 301, 306-309, 331, 339, 344, 349, 355, 418, 481-483, 500, 560-566, 580, 606, 613, 620, 629, 635, 645, 650-651, 662-675, 701, 706, 714 |
+| python/hopsworks\_common/command.py                                              |       25 |        4 |     84% |     49-52 |
+| python/hopsworks\_common/connection.py                                           |      292 |       96 |     67% |170-174, 182-186, 194-198, 221-223, 268, 300, 315-326, 336, 349, 363, 369-374, 398-466, 549, 553, 557-559, 648, 662, 667, 671, 676, 680, 685, 689, 694, 698, 703, 712, 716, 720, 725, 734-737, 742, 747, 750-751, 754 |
+| python/hopsworks\_common/constants.py                                            |      200 |        2 |     99% |    25, 28 |
 | python/hopsworks\_common/core/\_\_init\_\_.py                                    |        0 |        0 |    100% |           |
 | python/hopsworks\_common/core/alerts\_api.py                                     |      270 |      170 |     37% |178-181, 213-216, 245-248, 281-291, 325-336, 375-387, 423-436, 477-491, 540-574, 624-662, 712-737, 778-802, 830-834, 868-873, 916-981, 1005-1009, 1052-1084, 1117-1121, 1133-1136, 1144-1189, 1201-1205, 1208-1221 |
-| python/hopsworks\_common/core/app\_api.py                                        |      148 |       38 |     74% |52-58, 75-89, 172, 175, 185, 192, 194, 254-269, 273-284, 338-345, 351 |
-| python/hopsworks\_common/core/constants.py                                       |       32 |        0 |    100% |           |
+| python/hopsworks\_common/core/app\_api.py                                        |      151 |       38 |     75% |52-58, 75-89, 183, 186, 196, 203, 205, 266-281, 285-296, 350-357, 363 |
+| python/hopsworks\_common/core/constants.py                                       |       36 |        2 |     94% |     67-68 |
 | python/hopsworks\_common/core/dataset.py                                         |       31 |       14 |     55% |33-37, 41-44, 48, 52, 56, 60, 64 |
-| python/hopsworks\_common/core/dataset\_api.py                                    |      365 |      241 |     34% |106-168, 217-288, 300-366, 388, 405-408, 411, 422-426, 456, 471-472, 486, 499-501, 515, 559-583, 614-632, 658-667, 695-713, 739-757, 775-798, 830-849, 870-887, 903-918, 934-938, 967-1019, 1038, 1062, 1086-1098, 1112-1122, 1148-1149 |
+| python/hopsworks\_common/core/dataset\_api.py                                    |      391 |      213 |     46% |109-171, 225, 234, 241, 246, 249-283, 307-373, 395, 420-423, 426, 495-499, 529, 544-545, 559, 572-574, 588, 633, 638, 648-656, 705, 731-740, 768-786, 812-830, 848-871, 903-922, 943-960, 976-991, 1007-1011, 1040-1092, 1111, 1135, 1159-1171, 1185-1195, 1221-1222 |
 | python/hopsworks\_common/core/env\_var\_api.py                                   |       59 |        1 |     98% |       254 |
-| python/hopsworks\_common/core/environment\_api.py                                |       42 |       22 |     48% |63-86, 109-114, 147-152, 164-174 |
-| python/hopsworks\_common/core/execution\_api.py                                  |       53 |       18 |     66% |65, 89-100, 105-111, 119-128, 131-141, 153-155 |
+| python/hopsworks\_common/core/environment\_api.py                                |       42 |       14 |     67% |113-118, 151-156, 168-178 |
+| python/hopsworks\_common/core/execution\_api.py                                  |       73 |       21 |     71% |66, 90-101, 106-112, 120-129, 132-142, 145-155, 221-223 |
+| python/hopsworks\_common/core/execution\_pod\_log.py                             |       41 |        2 |     95% |   81, 102 |
+| python/hopsworks\_common/core/feature\_logging\_arrow.py                         |      197 |       27 |     86% |60, 81, 122, 130, 149, 169, 172, 183, 198, 202, 207, 209-210, 267, 269, 273, 276, 279, 333, 341-344, 349, 372, 374-381 |
+| python/hopsworks\_common/core/feature\_logging\_async.py                         |       97 |       13 |     87% |66-69, 78, 97-98, 115, 120, 147-152 |
+| python/hopsworks\_common/core/feature\_logging\_buffer.py                        |       50 |        2 |     96% |     30-31 |
+| python/hopsworks\_common/core/feature\_logging\_file.py                          |      683 |      133 |     81% |46-47, 116-119, 142, 153-154, 160, 178-179, 210-216, 257, 266, 302-304, 312-314, 338-356, 429-430, 451-452, 560, 602-603, 612, 664-665, 689, 695-696, 701-703, 735-736, 744, 815-820, 826-827, 845, 855, 884, 899-913, 918-923, 935, 938-944, 967-969, 980, 984-985, 1003-1004, 1010, 1024-1026, 1029-1098, 1111-1122, 1156 |
 | python/hopsworks\_common/core/git\_api.py                                        |      177 |      130 |     27% |87-122, 135-142, 157, 176, 208-211, 228-254, 257-265, 268-291, 294-316, 321-344, 347-380, 383-410, 413-440, 443-470, 473-499, 502-529, 532-556, 559-572, 578-584 |
 | python/hopsworks\_common/core/git\_op\_execution\_api.py                         |        9 |        4 |     56% |     24-36 |
 | python/hopsworks\_common/core/git\_provider\_api.py                              |       45 |       31 |     31% |31-34, 39-44, 49-67, 70-81, 88-96 |
@@ -178,54 +194,59 @@
 | python/hopsworks\_common/core/ingestion\_job.py                                  |       19 |        0 |    100% |           |
 | python/hopsworks\_common/core/ingestion\_job\_conf.py                            |       39 |       14 |     64% |33-36, 40, 44, 48, 52, 56, 60, 64, 68, 71, 74 |
 | python/hopsworks\_common/core/inode.py                                           |       41 |        6 |     85% |51, 55, 59, 67, 71, 75 |
-| python/hopsworks\_common/core/job\_api.py                                        |      106 |       54 |     49% |78-91, 108-116, 131-138, 156-157, 176-186, 194-201, 213-220, 228-233, 240-243, 259-263, 292-298, 310-315, 324-327 |
-| python/hopsworks\_common/core/job\_configuration.py                              |       21 |        1 |     95% |        75 |
+| python/hopsworks\_common/core/job\_api.py                                        |      136 |       69 |     49% |79-92, 109-117, 132-139, 157-158, 177-187, 195-202, 214-221, 229-234, 241-244, 260-264, 293-299, 330-333, 349-360, 371-380, 392-401, 419-434, 449-459 |
+| python/hopsworks\_common/core/job\_configuration.py                              |       28 |        1 |     96% |        93 |
 | python/hopsworks\_common/core/kafka\_api.py                                      |       99 |       56 |     43% |70-82, 128-149, 165-170, 183-186, 196-204, 213-223, 236-243, 259-275, 292-296, 305-316, 321-330, 340, 369-389 |
+| python/hopsworks\_common/core/keywords\_api.py                                   |       48 |        0 |    100% |           |
 | python/hopsworks\_common/core/library\_api.py                                    |       15 |        4 |     73% |     41-54 |
-| python/hopsworks\_common/core/opensearch.py                                      |      239 |       75 |     69% |44, 52-98, 126, 161, 194, 205-208, 212-218, 223-230, 294-296, 305, 382-417, 460-463, 468-480, 521 |
+| python/hopsworks\_common/core/opensearch.py                                      |      265 |       64 |     76% |58-61, 76-102, 165, 211, 275-278, 282-288, 293-300, 364-366, 375, 452-487, 530-533, 538-550, 591 |
 | python/hopsworks\_common/core/opensearch\_api.py                                 |       54 |       15 |     72% |62-73, 86-87, 113-114, 135-140 |
-| python/hopsworks\_common/core/project\_api.py                                    |       58 |       32 |     45% |39-43, 54-64, 75-79, 90-94, 108-115, 167-173, 176-179 |
+| python/hopsworks\_common/core/project\_api.py                                    |       58 |       32 |     45% |39-43, 54-64, 75-79, 90-94, 108-115, 170-176, 179-182 |
+| python/hopsworks\_common/core/project\_members\_api.py                           |       57 |        1 |     98% |        86 |
 | python/hopsworks\_common/core/rest.py                                            |       18 |        1 |     94% |        63 |
 | python/hopsworks\_common/core/rest\_endpoint.py                                  |      236 |       59 |     75% |48-51, 60, 63, 68, 102, 106-109, 115, 124, 130, 141, 144-146, 152, 157, 167, 182-183, 186, 201-203, 206, 271-277, 280, 305-310, 313, 325, 333, 366, 382, 385, 410-413, 418, 429-433, 440, 450 |
-| python/hopsworks\_common/core/search\_api.py                                     |      133 |       82 |     38% |45-47, 53, 59, 65, 69, 72, 84-103, 110, 115, 119, 122, 134-138, 237, 299-308, 362-371, 425-434, 485-494, 510-525, 543-562, 576-624 |
+| python/hopsworks\_common/core/search\_api.py                                     |      133 |       82 |     38% |54-56, 62, 68, 74, 78, 81, 93-112, 119, 124, 128, 131, 143-147, 246, 308-317, 371-380, 434-443, 494-503, 519-534, 552-571, 585-633 |
 | python/hopsworks\_common/core/secret\_api.py                                     |       61 |       16 |     74% |57-62, 92-93, 119-125, 161-163, 231-237 |
 | python/hopsworks\_common/core/services\_api.py                                   |       10 |        3 |     70% |     30-35 |
-| python/hopsworks\_common/core/sink\_job\_configuration.py                        |      314 |       52 |     83% |67, 95-96, 99, 106-107, 115, 119, 124, 128, 152, 186-193, 195, 203, 249, 285, 294, 346-358, 367-375, 380, 449, 460, 469, 478, 487, 496, 505, 529, 538, 547, 557, 569, 581 |
+| python/hopsworks\_common/core/sink\_job\_configuration.py                        |      379 |       57 |     85% |67, 95-96, 99, 106-107, 115, 119, 124, 128, 152, 186-193, 195, 203, 249, 287, 296, 385, 389, 394, 398, 404-416, 425-433, 438, 507, 518, 527, 536, 545, 554, 563, 587, 596, 605, 615, 627, 639, 768 |
 | python/hopsworks\_common/core/superset\_api.py                                   |      156 |       45 |     71% |110-111, 210, 240-252, 265, 275, 290, 303, 337-350, 363, 373, 388, 401, 433-447, 460, 470, 485, 500 |
-| python/hopsworks\_common/core/tag\_schemas\_api.py                               |       50 |       50 |      0% |    23-179 |
-| python/hopsworks\_common/core/tags\_api.py                                       |       39 |        9 |     77% |62-68, 86-91, 143 |
+| python/hopsworks\_common/core/tag\_schemas\_api.py                               |       50 |       20 |     60% |63-64, 80-83, 148, 159-162, 179-187 |
+| python/hopsworks\_common/core/tags\_api.py                                       |       47 |        9 |     81% |62-68, 86-91, 176 |
 | python/hopsworks\_common/core/trino\_api.py                                      |       95 |        1 |     99% |       225 |
-| python/hopsworks\_common/core/type\_systems.py                                   |      258 |       43 |     83% |319, 372, 394-396, 402-424, 464, 485, 489-513, 520 |
-| python/hopsworks\_common/core/variable\_api.py                                   |       50 |       26 |     48% |74-82, 96-101, 112, 150-159, 169-170, 178-182 |
-| python/hopsworks\_common/decorators.py                                           |       94 |        5 |     95% |131, 157, 167, 177, 187 |
+| python/hopsworks\_common/core/trino\_catalog\_api.py                             |       61 |        2 |     97% |   125-126 |
+| python/hopsworks\_common/core/type\_systems.py                                   |      277 |       45 |     84% |220, 222, 338, 391, 413-415, 421-443, 483, 504, 508-532, 539 |
+| python/hopsworks\_common/core/users\_api.py                                      |      111 |        2 |     98% |  260, 262 |
+| python/hopsworks\_common/core/variable\_api.py                                   |       57 |       32 |     44% |74-82, 96-101, 112, 150-159, 174-182, 192-193, 201-205 |
+| python/hopsworks\_common/decorators.py                                           |      101 |        6 |     94% |132, 158, 168, 178, 188, 198 |
 | python/hopsworks\_common/engine/\_\_init\_\_.py                                  |        0 |        0 |    100% |           |
 | python/hopsworks\_common/engine/alerts\_engine.py                                |       64 |        2 |     97% |   45, 101 |
-| python/hopsworks\_common/engine/environment\_engine.py                           |       38 |       27 |     29% |27-31, 34-38, 41-45, 48-74, 77-90 |
+| python/hopsworks\_common/engine/environment\_engine.py                           |       52 |        8 |     85% |136-141, 146-159 |
 | python/hopsworks\_common/engine/execution\_engine.py                             |      108 |       62 |     43% |57-80, 83-102, 119-144, 168, 179-193, 203-209, 216, 236 |
 | python/hopsworks\_common/engine/git\_engine.py                                   |       21 |        8 |     62% |     49-62 |
 | python/hopsworks\_common/env\_var.py                                             |       75 |        6 |     92% |106, 112, 120, 147, 150, 158 |
-| python/hopsworks\_common/environment.py                                          |       75 |       24 |     68% |63-66, 72, 84, 115-131, 162-178, 224, 227 |
-| python/hopsworks\_common/execution.py                                            |      146 |       24 |     84% |73, 79-81, 93, 123, 141, 147, 153, 159, 165, 171, 185, 190, 210, 239, 252, 265, 284, 287, 290, 295-303 |
+| python/hopsworks\_common/environment.py                                          |       75 |        5 |     93% |65, 72, 84, 252, 255 |
+| python/hopsworks\_common/execution.py                                            |      162 |       19 |     88% |75, 145, 151, 157, 163, 169, 175, 195, 200, 220, 249, 262, 302, 367, 370, 373, 378-386 |
 | python/hopsworks\_common/git\_commit.py                                          |       53 |       26 |     51% |40-49, 53-60, 66, 72, 78, 84, 90, 93, 96, 99 |
 | python/hopsworks\_common/git\_file\_status.py                                    |       37 |       15 |     59% |34-36, 40-45, 51, 69, 75, 78, 81, 84 |
 | python/hopsworks\_common/git\_op\_execution.py                                   |       54 |       25 |     54% |44-52, 56-57, 62, 67, 72, 77, 82, 87, 92, 97, 102, 107-114 |
 | python/hopsworks\_common/git\_provider.py                                        |       40 |       15 |     62% |42-45, 50-53, 59, 65, 71, 81, 84, 87, 90 |
 | python/hopsworks\_common/git\_remote.py                                          |       37 |       15 |     59% |40-43, 47-52, 58, 64, 74, 77, 80, 83 |
 | python/hopsworks\_common/git\_repo.py                                            |      129 |       50 |     61% |52-68, 72-77, 83, 89, 95, 101, 107, 113, 119, 125, 137, 150, 164-167, 179, 192, 205, 220, 234, 248, 262, 277, 292, 321, 336, 348, 351, 354, 357 |
-| python/hopsworks\_common/job.py                                                  |      198 |       59 |     70% |81-88, 113, 119, 123, 135, 141, 159, 250, 305-309, 329-333, 345, 362, 375, 381-398, 409, 482-498, 504-505, 511-521, 527-537, 550, 566, 599, 602-605, 608, 611, 614, 619-621 |
-| python/hopsworks\_common/job\_schedule.py                                        |       90 |       12 |     87% |43, 112, 115, 118, 136, 154, 160, 166, 176, 182, 188, 194 |
+| python/hopsworks\_common/job.py                                                  |      228 |       49 |     79% |83-90, 115, 138, 158, 164, 267, 322-326, 346-350, 362, 379, 392, 398-415, 426, 499-515, 521-522, 567, 583, 616, 619-622, 718, 721, 724, 729-731 |
+| python/hopsworks\_common/job\_schedule.py                                        |       90 |       10 |     89% |112, 115, 118, 154, 160, 166, 176, 182, 188, 194 |
 | python/hopsworks\_common/kafka\_schema.py                                        |       51 |       22 |     57% |36-41, 45-50, 53-55, 61, 67, 73, 79, 92, 95, 98, 101 |
 | python/hopsworks\_common/kafka\_topic.py                                         |      106 |       17 |     84% |70, 97-99, 118-120, 130, 136, 146, 152, 162, 168, 183, 186, 198, 201 |
-| python/hopsworks\_common/library.py                                              |       19 |       11 |     42% |39-50, 54-55 |
-| python/hopsworks\_common/project.py                                              |      145 |       43 |     70% |98-101, 107, 113, 119, 125, 131, 137, 232-235, 244-247, 256, 274, 279, 288, 297, 306, 315, 324, 333-335, 344-346, 358, 370, 400, 443, 448, 451, 454-456, 461-462 |
-| python/hopsworks\_common/search\_results.py                                      |      224 |       40 |     82% |58, 61, 110, 116, 122, 146, 156-172, 199, 217, 235, 243, 253-262, 398, 404, 410, 416, 448, 464 |
+| python/hopsworks\_common/library.py                                              |       19 |        0 |    100% |           |
+| python/hopsworks\_common/project.py                                              |      164 |       42 |     74% |105, 111, 117, 123, 129, 135, 236-239, 248-251, 260, 278, 283, 292, 301, 310, 319, 423, 432-434, 457-459, 468-470, 482, 494, 524, 567, 572, 575, 578-580, 585-586 |
+| python/hopsworks\_common/project\_member.py                                      |       67 |        9 |     87% |55, 76, 82, 88, 100, 166, 169, 175, 178 |
+| python/hopsworks\_common/search\_results.py                                      |      299 |       41 |     86% |61, 110, 116, 122, 156-172, 199, 253-262, 448, 454, 460, 466, 496, 508, 514, 532, 538, 544, 550, 589 |
 | python/hopsworks\_common/secret.py                                               |       61 |       11 |     82% |61, 80, 86, 92, 98, 110, 113, 116, 119-121 |
-| python/hopsworks\_common/spark\_connect\_utils.py                                |       38 |        6 |     84% |66-67, 103-104, 110-111 |
-| python/hopsworks\_common/tag.py                                                  |       80 |        6 |     92% |69, 120, 141, 153, 156, 159 |
+| python/hopsworks\_common/spark\_connect\_utils.py                                |       38 |        4 |     89% |66-67, 103-104 |
+| python/hopsworks\_common/tag.py                                                  |      105 |        7 |     93% |73, 131, 160, 181, 193, 208, 211 |
 | python/hopsworks\_common/triggered\_alert.py                                     |       87 |       39 |     55% |26-28, 32-35, 38, 41, 48, 51, 71-79, 83-88, 94, 100, 106, 112, 118, 124, 130, 136, 142, 145, 148, 161, 164 |
 | python/hopsworks\_common/usage.py                                                |      179 |      105 |     41% |48-52, 55-57, 60-62, 65-67, 70-72, 75-85, 88-90, 93, 96, 99-101, 104, 126-127, 130-131, 134-141, 144, 170, 175, 179, 184-186, 190-191, 195-199, 203-205, 209-212, 216-224, 232-257, 261-288, 292-296 |
-| python/hopsworks\_common/user.py                                                 |       42 |        5 |     88% |54-55, 60, 65, 68 |
-| python/hopsworks\_common/util.py                                                 |      543 |      141 |     74% |67-68, 80-102, 105-108, 168-171, 280, 322, 327, 438, 480-507, 512, 555, 559-562, 568-584, 590-596, 601-603, 623, 651, 677, 789, 795-797, 805-810, 855, 866-877, 933-938, 943, 947, 952, 956, 961, 989-997, 1001-1029, 1033-1035, 1039-1056, 1068-1075, 1080, 1085, 1090 |
+| python/hopsworks\_common/user.py                                                 |       92 |        4 |     96% |76, 79, 145, 148 |
+| python/hopsworks\_common/util.py                                                 |      638 |       82 |     87% |76-77, 89-114, 117-120, 182, 340, 345, 465, 507-534, 539, 582, 586-589, 608, 612-615, 623-629, 634-636, 656, 684, 711, 823, 829-831, 839-844, 889, 900-911, 996, 1027, 1333, 1358, 1384, 1389 |
 | python/hopsworks\_common/version.py                                              |        1 |        0 |    100% |           |
 | python/hsfs/\_\_init\_\_.py                                                      |       24 |        3 |     88% |52, 73, 83 |
 | python/hsfs/builtin\_transformations.py                                          |      242 |      179 |     26% |37-41, 49-55, 76-90, 98-101, 129-138, 156-157, 190-220, 241-281, 302-343, 366-394, 416-437, 460-494, 527-557, 579-581, 600-603, 629-633, 654-659, 689-691 |
@@ -240,26 +261,28 @@
 | python/hsfs/constructor/\_\_init\_\_.py                                          |        0 |        0 |    100% |           |
 | python/hsfs/constructor/external\_feature\_group\_alias.py                       |       21 |        1 |     95% |        38 |
 | python/hsfs/constructor/filter.py                                                |      111 |       11 |     90% |55, 69, 78, 83, 86, 190, 193, 199, 202, 207, 210 |
-| python/hsfs/constructor/fs\_query.py                                             |       69 |       19 |     72% |71, 79, 105, 111, 117, 121, 125, 131-137, 148-149, 160-161, 175-176 |
+| python/hsfs/constructor/fs\_query.py                                             |       77 |       19 |     75% |75, 83, 109, 127, 139, 143, 147, 153-159, 170-171, 182-183, 197-198 |
 | python/hsfs/constructor/hudi\_feature\_group\_alias.py                           |       26 |        0 |    100% |           |
-| python/hsfs/constructor/join.py                                                  |       39 |        2 |     95% |    56, 84 |
+| python/hsfs/constructor/inference\_spine.py                                      |      193 |       10 |     95% |75-76, 94-95, 124, 258, 360, 374, 396, 412 |
+| python/hsfs/constructor/join.py                                                  |       39 |        1 |     97% |        84 |
 | python/hsfs/constructor/lookback.py                                              |      147 |       13 |     91% |82, 172, 174, 176, 181, 321, 323, 348, 350, 357, 360, 363, 366 |
-| python/hsfs/constructor/partitioned\_by\_translator.py                           |      136 |       23 |     83% |101, 125, 127, 129, 181, 185-186, 190-191, 210, 212, 216-217, 241, 243, 279-283, 289, 296, 301 |
+| python/hsfs/constructor/partitioned\_by\_translator.py                           |      140 |       23 |     84% |106, 130, 132, 134, 186, 190-191, 195-196, 215, 217, 221-222, 246, 248, 284-288, 294, 301, 306 |
+| python/hsfs/constructor/prediction\_times.py                                     |      210 |       16 |     92% |67, 72, 125, 135, 305, 331, 340, 347, 358, 375, 378-380, 397, 425, 504 |
 | python/hsfs/constructor/prepared\_statement\_parameter.py                        |       35 |        8 |     77% |46-48, 51, 54, 57, 69, 73 |
-| python/hsfs/constructor/query.py                                                 |      357 |       70 |     80% |112-114, 331, 336, 343, 373-375, 403-408, 438, 637-643, 706-711, 735, 751, 769, 801-819, 837-841, 864-866, 872, 875, 877, 880, 883-889, 926, 930, 968, 996-999, 1103-1110, 1145-1146, 1148, 1157-1158, 1169 |
+| python/hsfs/constructor/query.py                                                 |      426 |       71 |     83% |129-131, 188, 409, 414, 421, 451-453, 529-531, 585-590, 620, 823-829, 892-895, 939, 957, 994, 1003-1021, 1039-1043, 1066-1068, 1074, 1077, 1082, 1085-1091, 1128, 1137, 1141, 1179, 1207-1210, 1314-1321, 1356-1357, 1359, 1368-1369, 1380 |
 | python/hsfs/constructor/serving\_prepared\_statement.py                          |       65 |       19 |     71% |61-63, 66, 69, 76-82, 86, 90, 96, 100, 104, 108, 112, 136, 140 |
 | python/hsfs/core/\_\_init\_\_.py                                                 |        0 |        0 |    100% |           |
-| python/hsfs/core/arrow\_flight\_client.py                                        |      312 |      152 |     51% |30, 71-75, 79, 83, 89, 95, 103, 109, 116, 161, 171, 213-214, 229-237, 244-263, 271-277, 282-296, 303, 308, 343-347, 355-362, 372-375, 381-388, 391-394, 397-400, 403-405, 408-410, 418-427, 433-455, 468-470, 483-499, 504-506, 529-530, 555-581, 589, 593, 598, 602, 616, 621 |
+| python/hsfs/core/arrow\_flight\_client.py                                        |      359 |      188 |     48% |32, 75-79, 83, 87, 93, 99, 107, 113, 120, 165, 175, 217-218, 233-241, 248-267, 275-281, 286-300, 307, 312, 347-351, 359-366, 376-379, 385-392, 395-398, 401-404, 407-409, 412-414, 422-431, 435, 442-454, 465-483, 489-495, 508-510, 523-539, 557-578, 583-585, 609-611, 633-634, 659-685, 693, 697, 702, 706, 720, 725 |
 | python/hsfs/core/chart.py                                                        |      101 |       39 |     61% |47-55, 59-66, 69, 82, 87, 91, 96, 100, 105, 109, 114, 118, 123, 127, 132, 136, 141, 145, 150, 154, 159, 163, 172-174, 185-187 |
 | python/hsfs/core/chart\_api.py                                                   |       24 |       15 |     38% |24-31, 39-46, 55-63, 72-80, 88-96 |
 | python/hsfs/core/constants.py                                                    |        2 |        0 |    100% |           |
 | python/hsfs/core/dashboard.py                                                    |       53 |       21 |     60% |41-43, 47-54, 57, 64, 69, 73, 78, 82, 87, 91, 100-102, 113-115 |
 | python/hsfs/core/dashboard\_api.py                                               |       24 |       15 |     38% |24-31, 39-46, 55-63, 72-80, 88-96 |
-| python/hsfs/core/data\_source.py                                                 |      177 |       23 |     87% |152, 159, 162, 197, 207, 250, 260, 289, 313, 338, 357, 393, 409, 421, 437, 449, 454, 458, 463, 467, 481, 529, 531 |
-| python/hsfs/core/data\_source\_api.py                                            |       78 |       38 |     51% |43-55, 60-71, 78-104, 112-116, 124-138, 154-170, 175-189, 194-208 |
-| python/hsfs/core/data\_source\_data.py                                           |       48 |        9 |     81% |56-61, 67, 85, 91, 97, 103 |
+| python/hsfs/core/data\_source.py                                                 |      207 |       23 |     89% |155, 162, 165, 200, 210, 253, 263, 292, 316, 378, 415, 572, 621, 633, 649, 661, 666, 670, 675, 679, 693, 741, 743 |
+| python/hsfs/core/data\_source\_api.py                                            |      108 |       64 |     41% |43-55, 60-71, 76-87, 94-120, 128-136, 144-158, 174-190, 200-214, 230-258, 264-278, 283-297, 373-385 |
+| python/hsfs/core/data\_source\_data.py                                           |       49 |        3 |     94% |68, 78, 114 |
 | python/hsfs/core/dataset\_api/\_\_init\_\_.py                                    |        2 |        0 |    100% |           |
-| python/hsfs/core/delta\_engine.py                                                |      483 |      137 |     72% |57-61, 80-99, 137-138, 309, 325-354, 361, 371, 377-429, 440, 462-472, 505-508, 539-541, 575, 577-586, 588-597, 599-606, 682-683, 699-703, 706-711, 723, 828, 835, 888-903, 920-953, 1046 |
+| python/hsfs/core/delta\_engine.py                                                |      755 |      169 |     78% |59, 82-86, 105-124, 165-166, 357, 385-444, 452-453, 461, 472, 478-513, 569-570, 691-701, 734-737, 768-770, 804, 806-815, 817-826, 828-835, 935-936, 952-956, 959-964, 977, 1073, 1080, 1133-1148, 1165-1198, 1258, 1261, 1276, 1294-1306, 1338, 1358-1359, 1361-1363, 1381, 1391-1397, 1423-1426, 1439-1444, 1454-1455, 1471-1480, 1517, 1732 |
 | python/hsfs/core/deltastreamer\_jobconf.py                                       |       16 |        6 |     62% | 30, 37-44 |
 | python/hsfs/core/distribution\_distance.py                                       |       54 |        2 |     96% |   165-166 |
 | python/hsfs/core/distribution\_engine.py                                         |      196 |       25 |     87% |201, 207, 290, 296-302, 382-402, 442, 447, 452, 479, 482-483, 492, 498, 509 |
@@ -269,31 +292,32 @@
 | python/hsfs/core/expectation\_suite\_api.py                                      |       53 |       39 |     26% |44-64, 77-100, 115-140, 150-168, 176-187 |
 | python/hsfs/core/expectation\_suite\_engine.py                                   |       37 |        2 |     95% |    68, 82 |
 | python/hsfs/core/explicit\_provenance.py                                         |      229 |      152 |     34% |35, 38, 41, 44, 57-63, 69, 75, 81, 84, 87, 98, 101, 109-123, 137-140, 149, 159, 175, 184, 188, 207, 210, 217-234, 238-244, 248-261, 265-282, 286-303, 307-352, 372-434, 439-486 |
-| python/hsfs/core/external\_feature\_group\_engine.py                             |       57 |       18 |     68% |36, 79, 93-130, 203-205 |
-| python/hsfs/core/feature\_descriptive\_statistics.py                             |      185 |       20 |     89% |107, 110-111, 127-128, 176, 215, 218, 221, 251, 257, 263, 269, 287, 299, 311, 327, 341, 351, 357 |
+| python/hsfs/core/external\_feature\_group\_engine.py                             |       63 |       18 |     71% |36, 98, 112-149, 222-224 |
+| python/hsfs/core/feature\_descriptive\_statistics.py                             |      196 |       15 |     92% |120, 123-124, 140-141, 189, 233, 236, 239, 269, 281, 287, 305, 317, 329 |
 | python/hsfs/core/feature\_group\_api.py                                          |      146 |       92 |     37% |51-68, 82-99, 174-180, 188-190, 207-234, 250-270, 283-293, 312-326, 355-366, 390-401, 426-441, 459-471, 489-501, 524-541, 562-579, 603-620, 644-661 |
-| python/hsfs/core/feature\_group\_base\_engine.py                                 |       77 |       19 |     75% |78, 92, 109-112, 129-132, 149-152, 169-172, 216 |
-| python/hsfs/core/feature\_group\_engine.py                                       |      254 |       35 |     86% |133, 215-229, 264-265, 378, 390-397, 516-518, 531-533, 546-547, 587-588, 662, 674, 713, 730, 768, 783-790, 839, 868, 875 |
-| python/hsfs/core/feature\_logging.py                                             |       75 |       34 |     55% |29, 58-61, 65-81, 89-91, 96, 101, 106, 123-134, 139, 142, 150, 153 |
-| python/hsfs/core/feature\_logging\_client.py                                     |       52 |       52 |      0% |    16-109 |
-| python/hsfs/core/feature\_monitoring\_config.py                                  |      412 |       98 |     76% |57, 61, 65-67, 74-76, 79, 82, 93, 97, 100, 175-178, 234-236, 256, 261-266, 296, 302, 305, 308, 311, 404-414, 521, 524, 537, 555-561, 639, 642, 651-654, 673, 713, 752-765, 785, 811-816, 839-845, 866-871, 890, 911, 946-951, 982, 994, 998, 1008-1020, 1026, 1032, 1038, 1044, 1050, 1085, 1087, 1089, 1103, 1105, 1130-1131, 1145, 1159, 1165, 1179, 1189, 1217, 1222, 1232 |
+| python/hsfs/core/feature\_group\_base\_engine.py                                 |       93 |       23 |     75% |87, 101, 109, 113, 117, 132, 149-152, 169-172, 189-192, 209-212, 256 |
+| python/hsfs/core/feature\_group\_engine.py                                       |      380 |       52 |     86% |135, 217-231, 266-267, 380, 393, 407-414, 501-535, 739-742, 757-760, 857-859, 872-874, 887-888, 928-929, 1003, 1015, 1054, 1072, 1139-1146, 1195, 1253, 1260 |
+| python/hsfs/core/feature\_log\_commit\_job.py                                    |      377 |       83 |     78% |53-54, 156-178, 186-196, 219, 249, 258, 317-318, 320, 448-451, 588-595, 597-598, 624-626, 635-637, 669-710, 735, 739-749, 753 |
+| python/hsfs/core/feature\_logging.py                                             |      116 |       21 |     82% |76, 130, 132, 137, 150-155, 160, 165, 170, 225-236, 241, 257 |
+| python/hsfs/core/feature\_logging\_client.py                                     |       52 |       31 |     40% |34-37, 42-48, 62-69, 72-74, 81-85, 88, 99-103, 107-109 |
+| python/hsfs/core/feature\_monitoring\_config.py                                  |      424 |       96 |     77% |57, 61, 65-67, 74-76, 79, 82, 93, 97, 100, 187-190, 261-263, 283, 288-293, 327, 333, 336, 339, 342, 435-445, 552, 555, 568, 586-592, 670, 673, 682-685, 705, 745, 784-797, 817, 843-848, 871-877, 898-903, 922, 943, 978-983, 1014, 1026, 1030, 1040-1052, 1064, 1070, 1076, 1082, 1130, 1132, 1134, 1148, 1150, 1175-1176, 1190, 1204, 1210, 1224, 1234, 1262, 1277 |
 | python/hsfs/core/feature\_monitoring\_config\_api.py                             |       77 |       50 |     35% |63-70, 86-95, 108-114, 128-134, 150-156, 176-181, 191-197, 213-219, 233-240, 256-266, 290-318 |
-| python/hsfs/core/feature\_monitoring\_config\_engine.py                          |      243 |       47 |     81% |165, 213, 295-317, 334-339, 348, 377-401, 417-419, 433, 479, 482, 486, 540, 677-692, 746, 788, 832-835, 841 |
+| python/hsfs/core/feature\_monitoring\_config\_engine.py                          |      287 |       47 |     84% |170, 218, 352-374, 391-396, 405, 434-458, 474-476, 490, 536, 539, 543, 597, 755-770, 851, 955, 999-1002, 1008 |
 | python/hsfs/core/feature\_monitoring\_result.py                                  |      101 |       21 |     79% |108, 111-130, 133, 136, 139-142, 148, 154, 160, 166, 172, 190 |
 | python/hsfs/core/feature\_monitoring\_result\_api.py                             |       47 |       27 |     43% |62-69, 82-88, 108-116, 132-141, 155-161, 177-196 |
-| python/hsfs/core/feature\_monitoring\_result\_engine.py                          |      196 |       61 |     69% |99, 152-172, 191, 252-330, 338, 389, 439, 460, 462, 464, 500-501, 540, 545, 734, 749-763 |
+| python/hsfs/core/feature\_monitoring\_result\_engine.py                          |      217 |       37 |     83% |105, 158-178, 197, 280, 286, 317-323, 412, 463, 513, 534, 536, 538, 574-575, 614, 619, 812, 827-841 |
 | python/hsfs/core/feature\_statistics\_config.py                                  |       52 |       10 |     81% |76-78, 82-90, 93, 96, 99 |
 | python/hsfs/core/feature\_statistics\_result.py                                  |      100 |       25 |     75% |111-113, 117-136, 139, 142, 145-148, 154, 196 |
 | python/hsfs/core/feature\_store\_activity\_api.py                                |       12 |       12 |      0% |     16-73 |
 | python/hsfs/core/feature\_store\_api.py                                          |       12 |        3 |     75% |     32-34 |
-| python/hsfs/core/feature\_view\_api.py                                           |      169 |       97 |     43% |71-72, 82-83, 105-129, 146-169, 174-180, 187-189, 194-196, 242, 272-285, 295-297, 306-309, 316-317, 328-332, 339-340, 345-348, 351-352, 357-361, 366-375, 399-413, 440-454, 467-476, 483-491, 498-506, 513-528, 538-545, 555-567 |
-| python/hsfs/core/feature\_view\_engine.py                                        |      531 |      171 |     68% |104-106, 154-162, 171-179, 189, 218-219, 287, 393, 401-407, 409-414, 416-423, 446-453, 456, 484, 648-666, 670, 674, 692-693, 757-761, 818, 834, 843, 945, 957-963, 966-969, 1023-1037, 1063, 1065, 1095-1096, 1108, 1121-1126, 1151, 1175-1180, 1199-1206, 1214-1215, 1286-1289, 1323-1326, 1395, 1450-1466, 1469, 1472-1475, 1574-1669, 1929, 1933, 1951-1996, 2002-2006, 2009-2033, 2036-2042, 2051-2054, 2057, 2060, 2065-2079, 2082-2083 |
+| python/hsfs/core/feature\_view\_api.py                                           |      170 |       98 |     42% |71-72, 82-83, 105-129, 146-169, 174-180, 187-189, 194-196, 242, 272-285, 295-297, 306-309, 316-317, 328-332, 339-340, 345-348, 351-352, 357-361, 366-375, 399-413, 440-454, 467-476, 483-491, 498-506, 513-528, 538-545, 556-570 |
+| python/hsfs/core/feature\_view\_engine.py                                        |      715 |      227 |     68% |128-130, 178-186, 195-203, 213, 242-243, 308, 435-441, 443-448, 450-457, 480-487, 490, 519, 667, 742-760, 764, 768, 787-788, 857-861, 918, 934, 943, 1007, 1073, 1085-1091, 1094-1097, 1151-1165, 1192-1208, 1214, 1216, 1242, 1255-1256, 1268, 1312, 1323-1324, 1342-1347, 1372, 1384, 1390, 1396, 1402, 1410, 1420-1423, 1433, 1455-1460, 1479-1486, 1494-1495, 1566-1569, 1603-1606, 1675, 1806-1837, 1843-1846, 1945-2040, 2292, 2296, 2327-2380, 2386-2390, 2393-2417, 2420-2426, 2435-2438, 2441-2446, 2449-2452, 2466-2479, 2504-2512, 2519-2528 |
 | python/hsfs/core/glue\_catalog.py                                                |      111 |       24 |     78% |80, 102, 116, 139, 147, 167, 192-204, 227, 274-278, 311, 313 |
 | python/hsfs/core/great\_expectation\_engine.py                                   |       43 |        4 |     91% |75, 95-100 |
 | python/hsfs/core/hosts\_api/\_\_init\_\_.py                                      |        2 |        2 |      0% |       5-6 |
-| python/hsfs/core/hudi\_engine.py                                                 |      146 |       10 |     93% |266-271, 289-293, 302-306 |
-| python/hsfs/core/iceberg\_engine.py                                              |      609 |      152 |     75% |92, 110, 118, 133-134, 143, 156, 166, 170, 173, 272, 282-290, 305-313, 379-387, 507, 509, 533, 541-543, 548, 574, 594-623, 644, 652-684, 695-725, 790-806, 817, 886, 895-903, 931-934, 939-952, 962-988, 1088-1107, 1127-1136, 1159, 1205-1207, 1244-1245, 1254, 1413-1417, 1426-1431, 1433-1435 |
-| python/hsfs/core/inferred\_metadata.py                                           |       65 |       10 |     85% |54-56, 80, 88, 96, 118, 138, 165, 172 |
+| python/hsfs/core/hudi\_engine.py                                                 |      173 |       16 |     91% |172-178, 303, 325-330, 348-352, 361-365 |
+| python/hsfs/core/iceberg\_engine.py                                              |      864 |      187 |     78% |99, 117, 125, 140-141, 150, 163, 173, 177, 180, 281, 291-299, 361, 363, 366-367, 375, 385-402, 519-527, 638, 640, 664, 673, 699, 719-748, 770, 778-804, 815-845, 910-926, 937, 1050, 1059-1067, 1135, 1147, 1163-1164, 1173, 1216-1217, 1339-1341, 1475-1478, 1483-1496, 1506-1532, 1632-1651, 1671-1680, 1703, 1746, 1772-1774, 1783-1801, 1837-1838, 1847, 1998-2002, 2020-2029, 2031-2033 |
+| python/hsfs/core/inferred\_metadata.py                                           |       70 |        8 |     89% |54-56, 80, 96, 120, 141, 182 |
 | python/hsfs/core/ingestion\_job/\_\_init\_\_.py                                  |        2 |        0 |    100% |           |
 | python/hsfs/core/ingestion\_job\_conf/\_\_init\_\_.py                            |        2 |        0 |    100% |           |
 | python/hsfs/core/inode/\_\_init\_\_.py                                           |        2 |        0 |    100% |           |
@@ -302,38 +326,43 @@
 | python/hsfs/core/job\_configuration/\_\_init\_\_.py                              |        2 |        0 |    100% |           |
 | python/hsfs/core/job\_schedule/\_\_init\_\_.py                                   |        2 |        0 |    100% |           |
 | python/hsfs/core/kafka\_api/\_\_init\_\_.py                                      |        2 |        0 |    100% |           |
-| python/hsfs/core/kafka\_engine.py                                                |      143 |       12 |     92% |244, 260, 266, 281, 321-332 |
+| python/hsfs/core/kafka\_engine.py                                                |      220 |        6 |     97% |208, 458, 479, 485, 500, 542 |
+| python/hsfs/core/keywords\_api/\_\_init\_\_.py                                   |        2 |        0 |    100% |           |
 | python/hsfs/core/monitoring\_window\_config.py                                   |      130 |       29 |     78% |49, 53-55, 63, 67, 70, 152-153, 168-169, 174, 177, 180, 186, 197, 203-214, 231, 236-240, 257, 280, 289 |
-| python/hsfs/core/monitoring\_window\_config\_engine.py                           |      189 |       46 |     76% |49, 69, 78, 123, 160, 224, 237-245, 258, 335-382, 501-512, 543-557, 653, 696, 714 |
-| python/hsfs/core/online\_ingestion.py                                            |       84 |       35 |     58% |97, 102, 105-110, 115-116, 124, 132, 144, 153, 161, 167, 181-219, 229-256 |
+| python/hsfs/core/monitoring\_window\_config\_engine.py                           |      238 |       41 |     83% |52, 72, 81, 126, 163, 227, 240-248, 261, 348-395, 688-699, 739-740, 863, 906, 924 |
+| python/hsfs/core/multi\_table\_ingestion.py                                      |      152 |        7 |     95% |72, 258-259, 268, 315, 331, 407 |
+| python/hsfs/core/online\_ingestion.py                                            |       91 |       31 |     66% |97, 102, 105-110, 115-116, 124, 132, 153, 161, 181-221 |
 | python/hsfs/core/online\_ingestion\_api.py                                       |       14 |        7 |     50% |52-64, 93-104 |
-| python/hsfs/core/online\_ingestion\_result.py                                    |       40 |       18 |     55% |48-50, 64-75, 83, 95, 101, 107, 113 |
-| python/hsfs/core/online\_store\_rest\_client\_api.py                             |       58 |       31 |     47% |38-53, 97-101, 142-146, 161-168, 187-192 |
-| python/hsfs/core/online\_store\_rest\_client\_engine.py                          |      162 |       46 |     72% |60, 85, 90, 112, 140, 161, 175-186, 230-256, 298-301, 313, 317, 328, 374, 385, 392, 396, 404-424, 429, 433, 447, 464, 475, 479, 483, 487, 491, 509 |
-| python/hsfs/core/online\_store\_sql\_engine.py                                   |      379 |      286 |     25% |79-103, 108-109, 128-179, 192-214, 224-254, 268-289, 292-319, 342-348, 374-380, 394, 409, 417-477, 485-595, 598-609, 612, 615-626, 641-643, 653-660, 666-682, 690-712, 715, 727-732, 742-757, 767-805, 809, 814, 818, 829, 836, 843, 850, 855, 859-861, 868, 873, 882, 886-903, 907, 911, 915, 919, 923, 927 |
+| python/hsfs/core/online\_ingestion\_failure.py                                   |       62 |        2 |     97% |  129, 132 |
+| python/hsfs/core/online\_ingestion\_result.py                                    |       40 |       18 |     55% |48-50, 64-75, 83, 95, 101, 111, 117 |
+| python/hsfs/core/online\_store\_rest\_client\_api.py                             |       58 |       31 |     47% |38-53, 101-105, 151-155, 171-178, 199-206 |
+| python/hsfs/core/online\_store\_rest\_client\_engine.py                          |      202 |       31 |     85% |72, 107, 161, 182, 221, 253, 310-313, 336, 383-386, 398, 402, 413, 483, 501, 505, 514-518, 532, 546, 550, 564, 581, 592, 596, 600, 604, 608, 626 |
+| python/hsfs/core/online\_store\_sql\_engine.py                                   |      498 |      306 |     39% |67-70, 85-86, 92, 97-100, 126-150, 171, 204-255, 268-290, 300-330, 344-365, 373, 437, 439, 459-465, 494, 496, 516-522, 536, 551, 559-598, 603-611, 620-634, 645-652, 660-711, 717-768, 777-789, 806-813, 883-886, 894-895, 898, 901-906, 909-920, 923, 926-937, 952-954, 964-971, 977-993, 1001-1023, 1026, 1038-1043, 1053-1068, 1081-1083, 1104, 1106, 1117-1121, 1125, 1130, 1134, 1145, 1152, 1166, 1171, 1175-1177, 1184, 1189, 1198, 1202-1219, 1223, 1227, 1231, 1235, 1239, 1243 |
 | python/hsfs/core/opensearch/\_\_init\_\_.py                                      |        3 |        0 |    100% |           |
 | python/hsfs/core/opensearch\_api/\_\_init\_\_.py                                 |        3 |        3 |      0% |       5-7 |
-| python/hsfs/core/partition\_grains.py                                            |       53 |       15 |     72% |47-73, 139 |
+| python/hsfs/core/partition\_grains.py                                            |       26 |        1 |     96% |        67 |
+| python/hsfs/core/partition\_transforms.py                                        |      163 |        7 |     96% |261, 405, 410, 435-438 |
 | python/hsfs/core/project\_api/\_\_init\_\_.py                                    |        2 |        2 |      0% |       5-6 |
 | python/hsfs/core/query\_constructor\_api.py                                      |       10 |        5 |     50% |     24-32 |
+| python/hsfs/core/restricted\_access\_api.py                                      |       38 |        9 |     76% |85, 113-119, 151-157 |
 | python/hsfs/core/schema\_validation.py                                           |      157 |       11 |     93% |39, 106, 114, 167-175, 282 |
 | python/hsfs/core/search\_api.py                                                  |        3 |        0 |    100% |           |
 | python/hsfs/core/services\_api/\_\_init\_\_.py                                   |        2 |        2 |      0% |       5-6 |
-| python/hsfs/core/share\_api.py                                                   |       80 |       80 |      0% |    20-292 |
+| python/hsfs/core/share\_api.py                                                   |       78 |       78 |      0% |    20-289 |
 | python/hsfs/core/spine\_group\_engine.py                                         |       17 |       11 |     35% |     24-49 |
-| python/hsfs/core/statistics\_api.py                                              |       90 |       73 |     19% |44-53, 84-110, 141-163, 194-208, 233-242, 264-283, 296, 326-376 |
+| python/hsfs/core/statistics\_api.py                                              |      102 |       46 |     55% |44-53, 90-119, 150-172, 203-217, 242-251, 273-292, 305, 352, 354, 394, 398, 402, 406, 410 |
 | python/hsfs/core/statistics\_comparison\_config.py                               |      116 |        9 |     92% |124-126, 151, 154, 157-162, 166 |
 | python/hsfs/core/statistics\_comparison\_result.py                               |       53 |       15 |     72% |55-57, 61, 70, 73, 76-79, 85, 91, 97, 103, 109 |
-| python/hsfs/core/statistics\_engine.py                                           |      127 |       11 |     91% |146, 148, 179-202, 396-397, 533, 580 |
+| python/hsfs/core/statistics\_engine.py                                           |      143 |       11 |     92% |157, 159, 218-244, 441-442, 600, 647 |
 | python/hsfs/core/storage\_connector\_api.py                                      |       56 |       39 |     30% |35-46, 60-69, 90-100, 121-126, 139, 166-176, 181-191, 198-210, 228-248, 267-287 |
 | python/hsfs/core/tag\_schemas\_api/\_\_init\_\_.py                               |        2 |        2 |      0% |       5-6 |
 | python/hsfs/core/tags\_api/\_\_init\_\_.py                                       |        2 |        0 |    100% |           |
 | python/hsfs/core/training\_dataset\_api.py                                       |       59 |       40 |     32% |31-40, 53-63, 71-81, 88-94, 102-114, 132-143, 174-185, 207-219, 231-241 |
-| python/hsfs/core/training\_dataset\_engine.py                                    |       58 |        1 |     98% |       175 |
+| python/hsfs/core/training\_dataset\_engine.py                                    |       64 |        1 |     98% |       183 |
 | python/hsfs/core/training\_dataset\_job\_conf.py                                 |       37 |       14 |     62% |25-28, 32, 36, 40, 44, 48, 52, 56, 60, 63, 66 |
 | python/hsfs/core/transformation\_execution\_dag.py                               |      179 |       25 |     86% |78, 200, 209-220, 262, 327-328, 346-360 |
 | python/hsfs/core/transformation\_function\_api.py                                |       26 |       16 |     38% |42-51, 80-95, 108-118 |
-| python/hsfs/core/transformation\_function\_engine.py                             |      504 |       89 |     82% |215-216, 224-228, 252, 283-287, 309, 314-327, 361-363, 384, 398, 789, 829-830, 839, 844-849, 856-862, 894, 896, 951-971, 984-1000, 1043-1053, 1108, 1203-1236, 1279-1286, 1397, 1509-1514, 1565, 1622-1627, 1660 |
+| python/hsfs/core/transformation\_function\_engine.py                             |      525 |       84 |     84% |221-222, 230-240, 264, 295-299, 321, 326-339, 373-375, 396, 410, 819, 861-862, 871, 876-881, 888-894, 983-1003, 1016-1032, 1112-1122, 1177, 1282-1288, 1295, 1301-1302, 1358-1367, 1481, 1600-1605, 1657, 1742-1747, 1780 |
 | python/hsfs/core/type\_systems.py                                                |        2 |        0 |    100% |           |
 | python/hsfs/core/util\_sql.py                                                    |       38 |       21 |     45% |37-74, 91-106 |
 | python/hsfs/core/validation\_report\_api.py                                      |       34 |       21 |     38% |44-65, 75-87, 95-113, 123-140 |
@@ -341,37 +370,37 @@
 | python/hsfs/core/validation\_result\_api.py                                      |       12 |        4 |     67% |     50-64 |
 | python/hsfs/core/validation\_result\_engine.py                                   |       33 |        3 |     91% |78, 82, 119 |
 | python/hsfs/core/variable\_api/\_\_init\_\_.py                                   |        2 |        0 |    100% |           |
-| python/hsfs/core/vector\_db\_client.py                                           |      253 |       71 |     72% |80-83, 98, 123-127, 131, 173-196, 223, 234, 258, 294-296, 328, 354-360, 369, 379, 396, 423-424, 437-456, 476-490, 493-500, 507, 513-522, 526, 530, 534-544, 548 |
-| python/hsfs/core/vector\_server.py                                               |      676 |      494 |     27% |199-259, 266-268, 275-309, 321-336, 345-359, 369, 393-458, 496-578, 624-806, 849-919, 935-964, 983-1015, 1038-1079, 1115-1168, 1189-1193, 1221-1224, 1228-1230, 1232-1236, 1239-1241, 1245, 1247, 1249, 1251, 1266, 1268, 1273, 1280, 1284-1286, 1307-1328, 1355-1381, 1402-1428, 1436-1450, 1453-1473, 1482-1506, 1531-1576, 1581-1593, 1606-1651, 1682-1699, 1733, 1765-1810, 1836-1884, 1906-1919, 1925, 1931, 1943-1947, 1951-1966, 1970-1978, 1982, 1986, 1990, 1994-2002, 2008, 2014, 2019, 2026-2040, 2046-2057, 2061-2065, 2069, 2073-2096, 2100-2120, 2125-2131, 2136-2142 |
+| python/hsfs/core/vector\_db\_client.py                                           |      295 |       63 |     79% |93-96, 111, 136-140, 144, 212, 289, 300, 324, 360-362, 394, 420-426, 435, 445, 470, 520, 547-548, 561-580, 600-614, 617-624, 631, 637-646, 650, 654, 658-668, 672 |
+| python/hsfs/core/vector\_server.py                                               |      793 |      354 |     55% |110, 141, 268-328, 399-408, 417-431, 441, 467-532, 537-539, 553, 556, 565-567, 586, 589, 726-735, 755-757, 771, 774, 783-785, 808, 916, 940, 972, 1014-1018, 1090, 1103-1105, 1186, 1188-1190, 1192-1194, 1197, 1217, 1226, 1232, 1242, 1246, 1251, 1271-1300, 1319-1351, 1374-1415, 1451-1504, 1525-1529, 1558, 1565, 1568-1572, 1575-1577, 1581, 1583, 1585, 1587, 1602, 1604, 1609, 1616, 1620-1622, 1643-1664, 1691-1717, 1738-1764, 1772-1786, 1789-1809, 1826-1827, 1832-1833, 1837-1838, 1842, 1867-1912, 1917-1929, 1942-1987, 2018-2035, 2069, 2102, 2106-2108, 2112-2116, 2118, 2121, 2125, 2134, 2173, 2186-2191, 2196-2201, 2212-2217, 2220, 2263-2266, 2272, 2290-2294, 2310, 2324, 2333, 2373-2387, 2393-2404, 2416, 2420-2443, 2448-2466 |
 | python/hsfs/decorators/\_\_init\_\_.py                                           |        8 |        0 |    100% |           |
 | python/hsfs/embedding.py                                                         |      155 |       40 |     74% |48, 61-63, 71, 79-100, 103, 106, 146-154, 171, 177, 183, 217, 225-232, 235, 314-318, 348-350, 354-355, 393, 401, 408 |
-| python/hsfs/engine/\_\_init\_\_.py                                               |       42 |        6 |     86% |34, 41, 45, 49-50, 80 |
-| python/hsfs/engine/python.py                                                     |      886 |      124 |     86% |309, 313, 336, 338-340, 344, 379, 385, 411, 417, 473-477, 499, 560, 601-612, 629, 655-659, 672-681, 721-724, 764-770, 807-816, 862-863, 908, 973-976, 1006, 1009-1010, 1038-1039, 1065, 1084, 1100, 1175-1178, 1262, 1396-1400, 1513-1514, 1552, 1601, 1666-1678, 1686, 1689, 1851, 1902, 1910, 1932, 1947-1951, 1981, 2009, 2039-2043, 2082, 2100-2103, 2134, 2146-2150, 2384-2386, 2392, 2398, 2725, 2729-2730, 2755-2759, 2761-2769, 2785-2786, 2792-2793, 2837, 2876-2877 |
-| python/hsfs/engine/spark.py                                                      |      983 |      235 |     76% |88-93, 161-162, 179-180, 187-189, 201-207, 228, 236, 266-274, 301-311, 320, 367-375, 483, 492-496, 503-535, 573-583, 622, 641-642, 645, 698, 731-738, 831, 1035-1036, 1142, 1175-1179, 1199-1228, 1231-1248, 1251-1280, 1381, 1386, 1405-1457, 1483, 1523, 1599, 1627, 1645, 1663-1705, 1784, 1798-1817, 1821-1828, 1886, 1890, 1924, 1934-1935, 1959-1960, 1982-1983, 1986, 2068-2074, 2160-2170, 2394, 2424-2430, 2577, 2585-2599, 2603, 2719-2720, 2726-2727, 2733-2734, 2740-2741, 2754-2755, 2758, 2773 |
+| python/hsfs/engine/\_\_init\_\_.py                                               |       45 |        5 |     89% |34, 41, 45, 49-50 |
+| python/hsfs/engine/python.py                                                     |      972 |      126 |     87% |181, 334, 338, 370-379, 382, 445-446, 487-493, 521, 523-525, 529, 564, 570, 596, 602, 658-662, 684, 745, 786-797, 802, 805, 824, 850-854, 867-876, 916-919, 959-965, 1002-1011, 1056-1057, 1102, 1167-1170, 1200, 1203-1204, 1232-1233, 1259, 1278, 1294, 1475, 1609-1613, 1726-1727, 1765, 1814, 1879-1891, 1899, 1902, 2064, 2107, 2330, 2360-2364, 2403, 2421-2424, 2455, 2467-2471, 2713, 3046, 3050-3051, 3076-3080, 3082-3090, 3106-3107, 3113-3114, 3158, 3197-3198 |
+| python/hsfs/engine/spark.py                                                      |     1030 |      236 |     77% |94-99, 171-172, 189-190, 197-199, 211-217, 238, 246, 276-284, 292, 357-358, 380-390, 399, 446-454, 562, 571-575, 582-614, 652-662, 701, 720-721, 724, 806-813, 1137-1138, 1249, 1282-1286, 1306-1335, 1338-1355, 1358-1387, 1523, 1528, 1547-1599, 1625, 1665, 1741, 1769, 1787, 1805-1847, 1926, 1940-1959, 1963-1970, 2028, 2032, 2066, 2076-2077, 2101-2102, 2124-2125, 2128, 2210-2216, 2302-2312, 2536, 2566-2572, 2719, 2727-2741, 2745, 2861-2862, 2868-2869, 2875-2876, 2882-2883, 2896-2897, 2900, 2915 |
 | python/hsfs/engine/spark\_metrics.py                                             |      115 |       26 |     77% |48-54, 78-79, 99-102, 107, 110, 128-129, 162, 185-194 |
-| python/hsfs/engine/spark\_no\_metastore.py                                       |       14 |        5 |     64% | 35-44, 48 |
+| python/hsfs/engine/spark\_no\_metastore.py                                       |       14 |        5 |     64% | 37-47, 51 |
 | python/hsfs/expectation\_suite.py                                                |      250 |       73 |     71% |53, 86, 101, 195, 241, 260, 271-276, 288, 295-310, 347, 381-385, 435-444, 474-487, 509-513, 520, 523-541, 551, 561-563, 575, 585, 595-597, 615-617, 642, 659, 663 |
 | python/hsfs/feature.py                                                           |      182 |       11 |     94% |161, 201, 221, 237, 267, 300, 304, 314, 330, 368, 398 |
-| python/hsfs/feature\_group.py                                                    |     1360 |      353 |     74% |403-408, 479, 691, 732, 760, 783, 809, 821, 837, 856, 873, 891-903, 918-930, 946, 962, 1004-1006, 1026-1028, 1047-1049, 1086-1087, 1115-1117, 1149-1150, 1190-1205, 1239-1242, 1274-1275, 1297-1315, 1351-1354, 1397-1415, 1450-1455, 1509, 1526, 1531, 1540, 1560-1562, 1596, 1629-1631, 1682-1703, 1755-1763, 1825-1830, 1848, 1855, 1906-1911, 1966-1971, 2034-2048, 2118, 2145, 2161, 2188, 2192, 2207, 2227, 2252, 2267, 2280, 2296, 2321-2322, 2370-2371, 2409-2410, 2435-2442, 2467, 2491, 2541, 2559-2561, 2591, 2645, 2673, 2706, 2716, 2726, 2768-2769, 2776, 2788-2797, 2809, 2818, 2821-2849, 2858, 2864-2873, 2910, 2932, 2980-2981, 3009-3010, 3221, 3325, 3330-3335, 3397, 3557, 3562, 3566, 3597, 3600-3604, 3652, 3712-3721, 3748-3752, 3844, 3848, 3852, 3932, 4096, 4114, 4123, 4382-4402, 4449, 4468-4483, 4513, 4648-4650, 4674-4702, 4717, 4721, 4736, 4746, 4750-4751, 4761, 4765-4788, 4801, 4852, 4854, 4856, 4859, 4863, 4867, 5030, 5052, 5059-5067, 5083, 5093, 5099, 5103, 5110-5113, 5130-5143, 5149-5154, 5166, 5178-5185, 5327-5328, 5418-5448, 5477-5478, 5595, 5613, 5622, 5646-5650, 5681-5685, 5741-5750, 5762, 5769, 5777-5785, 5788, 5819, 5821, 5868, 5968-5969, 5997-5998, 6037, 6047-6050, 6062-6064, 6067-6071, 6074, 6077 |
+| python/hsfs/feature\_group.py                                                    |     1577 |      359 |     77% |171, 311, 344, 350, 594-599, 670, 882, 1014, 1042, 1065, 1091, 1103, 1126, 1140, 1154, 1167, 1184, 1202-1204, 1219, 1235, 1254, 1271, 1289-1301, 1316-1328, 1344, 1360, 1402-1404, 1424-1426, 1443-1445, 1485-1487, 1510-1512, 1539-1541, 1607-1609, 1641-1642, 1682-1697, 1731-1734, 1766-1767, 1789-1807, 1843-1846, 1889-1907, 1942-1947, 2001, 2018, 2023, 2032, 2052-2054, 2088, 2121-2123, 2174-2195, 2247-2255, 2317-2322, 2340, 2347, 2398-2403, 2458-2463, 2532-2554, 2631, 2666, 2682, 2709, 2713, 2728, 2748, 2773, 2788, 2801, 2817, 2842-2843, 2891-2892, 2930-2931, 2956-2963, 2988, 3012, 3062, 3080-3082, 3112, 3166, 3194, 3227, 3237, 3247, 3289-3290, 3297, 3330, 3339, 3342-3370, 3379, 3385-3394, 3431, 3453, 3501-3502, 3530-3531, 3795, 3902, 3907-3912, 3975, 4135, 4140, 4144, 4175, 4178-4182, 4230, 4290-4299, 4326-4330, 4423, 4427, 4431, 4511, 4698, 4707, 4965-4985, 5032, 5115, 5123, 5228, 5289, 5326, 5356, 5462, 5493, 5510, 5738-5740, 5764-5792, 5807, 5811, 5826, 5836, 5840-5841, 5851, 5859, 5874, 5891, 5951, 5957, 5959, 5964, 5968, 5972, 6192, 6214, 6221-6229, 6255, 6261, 6265, 6272-6275, 6292-6305, 6311-6316, 6340-6347, 6489-6490, 6581-6611, 6640-6641, 6758, 6776, 6785, 6809-6813, 6844-6848, 6904-6913, 6925, 6932, 6940-6948, 6951, 6982, 6984, 7031, 7143-7144, 7172-7173, 7212, 7222-7225, 7237-7239, 7242-7246, 7249, 7252 |
 | python/hsfs/feature\_group\_commit.py                                            |       84 |       16 |     81% |61-64, 67, 70, 113, 121, 125, 129, 133, 137, 141, 145, 149, 153 |
 | python/hsfs/feature\_group\_writer.py                                            |       17 |        0 |    100% |           |
-| python/hsfs/feature\_logger.py                                                   |       14 |       14 |      0% |     16-38 |
-| python/hsfs/feature\_logger\_async.py                                            |      128 |      128 |      0% |    16-293 |
-| python/hsfs/feature\_store.py                                                    |      347 |      100 |     71% |201, 220-225, 272, 274, 300, 329-346, 370, 407-408, 434-446, 468, 495, 523, 562-564, 593-595, 621-623, 641-643, 684, 709, 729, 960, 1213-1214, 1376-1419, 1599-1603, 1609, 1756-1774, 1868-1874, 1928, 2036, 2057, 2176-2193, 2332, 2368-2370, 2374-2377, 2419-2425, 2446, 2470, 2501-2505, 2526, 2550, 2580, 2592, 2682, 2740, 2798, 2856, 2911 |
+| python/hsfs/feature\_logger.py                                                   |       17 |        3 |     82% |43, 52, 57 |
+| python/hsfs/feature\_logger\_async.py                                            |      104 |       33 |     68% |52-59, 108-117, 127, 130, 158-159, 165-166, 188-196, 199-202, 205, 217-219 |
+| python/hsfs/feature\_store.py                                                    |      363 |      106 |     71% |203, 222-227, 274, 276, 302, 331-348, 372, 409-410, 436-448, 470, 497, 525, 564-566, 595-597, 623-625, 643-645, 686, 711, 731, 988, 1272-1273, 1462-1505, 1685-1689, 1695, 1850-1868, 1965-1971, 2025, 2133, 2154, 2285-2314, 2468, 2504-2506, 2510-2513, 2555-2561, 2582, 2606, 2637-2641, 2662, 2686, 2716, 2728, 2818, 2876, 2934, 2992, 3047, 3069 |
 | python/hsfs/feature\_store\_activity.py                                          |       94 |       94 |      0% |    16-183 |
-| python/hsfs/feature\_view.py                                                     |      876 |      256 |     71% |193, 287, 362-364, 393, 482-488, 497-498, 523, 528-531, 667, 714, 889, 896, 1061, 1068-1069, 1131, 1188, 1197-1218, 1282-1293, 1301-1313, 1461, 1513, 1540, 1564, 1581, 1601-1605, 1623-1628, 1649, 1675, 1685, 1890-1928, 2184-2228, 2472-2525, 2597-2607, 2984, 3231, 3385-3398, 3467-3484, 3509-3515, 3547, 3588, 3624, 3658, 3691, 3718-3720, 3744-3746, 3773-3775, 3799-3801, 3854-3862, 3872-3904, 3951-3956, 4008-4013, 4070-4084, 4150-4156, 4257-4258, 4307, 4326, 4382, 4405, 4412, 4514-4532, 4565, 4606-4609, 4655-4657, 4666-4673, 4829-4850, 4902, 4952, 4977, 4992, 5016, 5036-5037, 5060-5069, 5242-5245, 5250-5263, 5269-5270, 5316, 5354, 5364, 5370, 5380, 5390, 5395, 5448, 5458, 5520, 5531, 5566-5581, 5612-5614, 5625, 5639, 5649, 5655-5657, 5773 |
+| python/hsfs/feature\_view.py                                                     |     1085 |      286 |     74% |207, 342, 472-474, 503, 596-602, 641, 646-649, 785, 833, 1022, 1029, 1083, 1109-1119, 1284, 1291, 1363, 1429, 1438-1440, 1455-1485, 1549-1560, 1568-1580, 1810, 1837, 1861, 1884, 1898, 1912, 1925, 1942, 1960-1962, 1977, 1994, 2014-2018, 2036-2041, 2062, 2088, 2098, 2326-2367, 2645-2692, 2958-3014, 3531, 3798, 3970-3985, 4062-4081, 4106-4112, 4144, 4185, 4221, 4255, 4278, 4300, 4320, 4341, 4364, 4388-4390, 4411, 4444, 4471-4473, 4497-4499, 4526-4528, 4552-4554, 4607-4615, 4625-4657, 4704-4709, 4761-4766, 4828-4850, 4922-4935, 5117-5118, 5180, 5199, 5255, 5278, 5285, 5441, 5482-5485, 5541-5545, 5565, 5574-5581, 5738-5757, 5810, 5864, 5890, 5905, 5929, 5958-5959, 5982-5992, 6166-6169, 6174-6187, 6242, 6280, 6296, 6321, 6403, 6506, 6517, 6558, 6561-6567, 6598-6600, 6611, 6635, 6641-6643, 6668-6670, 6834, 6838, 6874 |
 | python/hsfs/ge\_expectation.py                                                   |      101 |       13 |     87% |40, 68, 120, 123, 126, 144, 158-161, 171, 186, 201 |
 | python/hsfs/ge\_validation\_result.py                                            |      146 |       18 |     88% |52, 111, 157, 167, 182, 193, 199, 214, 233, 273, 286, 292, 295-301 |
-| python/hsfs/hopsworks\_udf.py                                                    |      454 |       12 |     97% |143, 407-409, 637, 748, 754, 954, 969, 971, 1201, 1492 |
+| python/hsfs/hopsworks\_udf.py                                                    |      520 |       18 |     97% |87, 185, 449-451, 501-504, 524, 636, 796, 909, 915, 1100, 1124, 1142, 1144, 1374, 1671 |
 | python/hsfs/online\_config.py                                                    |       91 |        1 |     99% |       137 |
-| python/hsfs/serving\_key.py                                                      |       60 |       10 |     83% |57, 94-98, 108, 113, 123, 128 |
+| python/hsfs/serving\_key.py                                                      |       60 |        6 |     90% |57, 96, 98, 108, 123, 128 |
 | python/hsfs/split\_statistics.py                                                 |       28 |        2 |     93% |    57, 65 |
-| python/hsfs/statistics.py                                                        |      115 |       27 |     77% |85, 87, 89, 102, 136-149, 152, 155, 158, 170, 174-182, 196, 202, 208, 214, 226 |
+| python/hsfs/statistics.py                                                        |      140 |       22 |     84% |93, 95, 97, 110, 162, 166, 170, 173, 176, 188, 192-200, 214, 220, 226, 273 |
 | python/hsfs/statistics\_config.py                                                |       81 |        6 |     93% |54, 65, 67, 118, 141, 144 |
-| python/hsfs/storage\_connector.py                                                |     1947 |      412 |     79% |150, 174-181, 283, 322, 341-350, 354, 368, 385-388, 400-411, 428-431, 443-455, 474-480, 507, 510, 512, 514, 529, 531-537, 554-561, 608, 632-638, 673-675, 680-693, 728, 734-735, 772, 930-955, 1137, 1170-1182, 1196, 1260, 1341, 1381, 1537, 1549, 1570, 1613-1627, 1636, 1638-1639, 1658-1672, 1713, 1734, 1883, 1942, 1961, 2076, 2148, 2195-2204, 2211, 2303-2312, 2568-2577, 2584, 2586, 2617-2618, 2691, 2735-2744, 2835, 2852, 2935, 3070-3071, 3156-3167, 3263, 3268, 3273, 3296-3297, 3311, 3327, 3457-3468, 3508-3517, 3526, 3531, 3536, 3541, 3546, 3551, 3556, 3559-3577, 3580, 3584-3603, 3614-3638, 3666, 3725, 3729, 3733, 3737, 3741, 3745, 3749, 3753, 3757, 3761, 3765, 3769, 3774, 3779, 3782-3803, 3806, 4057, 4082-4086, 4093-4101, 4109, 4124-4218, 4230-4235, 4269-4274, 4280, 4286, 4292, 4298, 4304, 4310, 4325-4327, 4346-4348, 4352-4370, 4394-4395, 4399, 4403, 4406, 4416-4417, 4422-4432, 4436, 4440, 4443, 4481-4489, 4492-4496, 4504, 4508, 4512, 4516, 4520, 4524, 4528, 4532, 4536, 4540, 4543-4561, 4599-4603, 4612, 4614-4621, 4625, 4629, 4633-4635, 4638-4649, 4652, 4831, 4847-4848, 4853-4854, 4907, 4940-4941, 4977, 4990 |
+| python/hsfs/storage\_connector.py                                                |     2026 |      405 |     80% |157, 181-188, 274, 319-343, 394, 433, 452-461, 465, 479, 496-499, 511-522, 539-542, 554-566, 585-591, 618, 621, 623, 625, 640, 642-648, 665-672, 685, 837-843, 886, 891-903, 954, 960-961, 998, 1156-1181, 1363, 1396-1408, 1422, 1486, 1567, 1607, 1775, 1796, 1871, 1873-1874, 1913-1923, 1964, 1985, 2134, 2193, 2212, 2327, 2399, 2446-2455, 2462, 2554-2563, 2819-2828, 2835, 2837, 2868-2869, 2942, 2986-2995, 3086, 3103, 3186, 3321-3322, 3407-3418, 3535, 3540, 3545, 3568-3569, 3583, 3599, 3767-3778, 3818-3827, 3836, 3841, 3846, 3851, 3856, 3861, 3866, 3869-3887, 3890, 3894-3913, 3924-3948, 3976, 4035, 4039, 4043, 4047, 4051, 4055, 4059, 4063, 4067, 4071, 4075, 4079, 4084, 4089, 4116, 4367, 4392-4396, 4403-4411, 4419, 4434-4528, 4540-4545, 4579-4584, 4590, 4596, 4602, 4608, 4614, 4620, 4635-4637, 4656-4658, 4662-4680, 4704-4705, 4709, 4713, 4716, 4726-4727, 4732-4742, 4746, 4750, 4753, 4791-4799, 4802-4806, 4814, 4818, 4822, 4826, 4830, 4834, 4838, 4842, 4846, 4850, 4853-4871, 4909-4913, 4922, 4924-4931, 4935, 4939, 4943-4945, 4948-4959, 4962, 5141, 5157-5158, 5163-5164, 5217, 5250-5251, 5287, 5300 |
 | python/hsfs/tag/\_\_init\_\_.py                                                  |        2 |        0 |    100% |           |
-| python/hsfs/training\_dataset.py                                                 |      466 |      118 |     75% |245, 250-267, 276, 285, 294, 320, 345, 350, 360, 387, 405, 415, 417, 419, 423, 443, 452, 463, 475, 484, 493, 502, 511, 520, 529, 538, 543, 547, 689-707, 748-754, 773-778, 783-804, 817, 833, 845, 860, 872, 887-888, 896-897, 916-921, 927-937, 939, 948-956, 959-968, 978, 983, 1010, 1021, 1027, 1031, 1047, 1053, 1066, 1083, 1101-1103, 1121-1123, 1136, 1148, 1154-1162 |
-| python/hsfs/training\_dataset\_feature.py                                        |       80 |        8 |     90% |59, 88, 134, 150, 160, 163-166 |
+| python/hsfs/training\_dataset.py                                                 |      473 |      111 |     77% |247, 252-270, 279, 288, 297, 338, 363, 368, 378, 405, 423, 433, 435, 441, 461, 470, 481, 493, 502, 511, 520, 529, 538, 547, 556, 561, 565, 709-727, 768-774, 793-798, 803-824, 837, 853, 865, 880, 892, 907-908, 916-917, 936-941, 947-957, 959, 973, 979-988, 998, 1003, 1031, 1042, 1048, 1052, 1068, 1074, 1087, 1104, 1122-1124, 1142-1144, 1157, 1169, 1175-1183 |
+| python/hsfs/training\_dataset\_feature.py                                        |       80 |        5 |     94% |59, 88, 163-166 |
 | python/hsfs/training\_dataset\_split.py                                          |       54 |        7 |     87% |52, 60, 68, 76, 84, 87, 90 |
 | python/hsfs/transformation\_function.py                                          |      155 |       15 |     90% |138, 169, 231-233, 241, 548, 575, 585, 616, 641-645 |
 | python/hsfs/transformation\_statistics.py                                        |      139 |       16 |     88% |96, 102, 110, 116, 122, 128, 148, 172, 190, 204, 214, 220, 226, 238, 290, 297 |
@@ -380,7 +409,7 @@
 | python/hsfs/util.py                                                              |       77 |        9 |     88% |90, 115, 241-255 |
 | python/hsfs/validation\_report.py                                                |      138 |       16 |     88% |72, 104, 148, 164, 174, 227, 244, 263, 281-287, 293, 296 |
 | python/hsfs/version.py                                                           |        2 |        0 |    100% |           |
-| python/hsml/\_\_init\_\_.py                                                      |       14 |        1 |     93% |        37 |
+| python/hsml/\_\_init\_\_.py                                                      |       14 |        2 |     86% |    37, 44 |
 | python/hsml/client/\_\_init\_\_.py                                               |        2 |        0 |    100% |           |
 | python/hsml/client/auth/\_\_init\_\_.py                                          |        5 |        5 |      0% |       5-9 |
 | python/hsml/client/base/\_\_init\_\_.py                                          |        2 |        2 |      0% |       5-6 |
@@ -403,58 +432,63 @@
 | python/hsml/core/\_\_init\_\_.py                                                 |        0 |        0 |    100% |           |
 | python/hsml/core/dataset\_api/\_\_init\_\_.py                                    |        3 |        0 |    100% |           |
 | python/hsml/core/explicit\_provenance.py                                         |      189 |       86 |     54% |65, 71, 77, 80, 87, 95-109, 138, 176, 186, 202, 205, 228-229, 249-286, 290-319, 335-356, 364-379, 384-409 |
-| python/hsml/core/hdfs\_api.py                                                    |       21 |       12 |     43% |28, 52-76, 88 |
+| python/hsml/core/hdfs\_api.py                                                    |       21 |       14 |     33% |24-28, 52-76, 88 |
 | python/hsml/core/huggingface\_api.py                                             |       28 |       18 |     36% |37-38, 75-86, 103-104, 119-121 |
 | python/hsml/core/model\_api.py                                                   |       87 |       57 |     34% |40-50, 70-80, 108-124, 146-174, 182-191, 204-217, 228-239, 322-346, 365-389 |
 | python/hsml/core/model\_registry\_api.py                                         |       24 |       16 |     33% | 27, 38-62 |
 | python/hsml/core/model\_serving\_api.py                                          |       53 |       20 |     62% |38-46, 51-63, 72-73, 120-127 |
-| python/hsml/core/serving\_api.py                                                 |      163 |      114 |     30% |52-67, 79-89, 103-118, 134-145, 158-167, 230-233, 244-258, 267-275, 283-290, 303-311, 324-334, 352-358, 366-389, 401-421, 424-428, 436-439, 450-458, 469-474, 505-524 |
+| python/hsml/core/serving\_api.py                                                 |      241 |       92 |     62% |62-77, 89-99, 113-128, 144-155, 168-177, 240-243, 271-280, 377, 426-434, 442-449, 462-470, 483-493, 589, 628-631, 642-650, 661-666, 705-728 |
 | python/hsml/decorators/\_\_init\_\_.py                                           |        8 |        0 |    100% |           |
+| python/hsml/default\_predictor.py                                                |      672 |       56 |     92% |93-95, 116-117, 126-128, 161-169, 209-210, 226, 354-355, 385, 391, 397-406, 411-412, 491, 650-652, 704, 746, 777, 831, 1026-1027, 1043-1045, 1098, 1191-1193, 1511, 1513, 1516-1517, 1529, 1534-1535, 1548, 1552 |
 | python/hsml/deployable\_component.py                                             |       56 |        5 |     91% |73, 95, 105, 115, 125 |
-| python/hsml/deployable\_component\_logs.py                                       |       57 |        6 |     89% |75, 110, 114, 119, 123, 126 |
-| python/hsml/deployment.py                                                        |      355 |       58 |     84% |351, 432-440, 533, 586, 681, 711, 732, 738, 748, 754, 764, 770, 778, 782, 788, 792, 798, 802, 812, 816, 822, 832, 838, 842, 848, 852, 858, 862, 872, 876, 882, 886, 892, 896, 902, 906, 912, 916, 932, 936, 942, 948, 954, 958, 964, 968, 984, 988, 994, 998, 1004, 1008, 1011-1016 |
+| python/hsml/deployable\_component\_logs.py                                       |       85 |        7 |     92% |114, 184, 189, 193, 198, 202, 205 |
+| python/hsml/deployment.py                                                        |      489 |       71 |     85% |489, 496, 520-530, 537, 557-562, 594, 601, 610, 760-768, 868, 932, 1060, 1090, 1111, 1117, 1127, 1165, 1191, 1197, 1209, 1215, 1219, 1229, 1239, 1243, 1249, 1259, 1265, 1269, 1275, 1279, 1285, 1289, 1299, 1303, 1309, 1313, 1319, 1323, 1329, 1333, 1339, 1343, 1362, 1366, 1372, 1376, 1382, 1388, 1394, 1398, 1411, 1415, 1432, 1436, 1472, 1476, 1479-1484 |
+| python/hsml/deployment\_logging\_config.py                                       |      171 |       16 |     91% |124, 139, 144-150, 200, 235, 239, 263, 269, 273, 283, 293, 303, 313, 323 |
+| python/hsml/deployment\_schema.py                                                |      881 |       44 |     95% |95, 113, 116, 237, 345-348, 361, 639-640, 733, 810-811, 876, 893, 915, 917, 948, 954, 956, 960, 1035, 1038, 1157, 1202, 1232, 1248, 1257, 1260, 1273, 1277, 1286, 1296, 1365, 1372-1374, 1380, 1498, 1588, 1710, 1777, 1889 |
 | python/hsml/deployment\_tracing\_config.py                                       |       93 |       11 |     88% |66, 71, 124-126, 129, 153, 163, 177, 191, 196 |
+| python/hsml/deployment\_version.py                                               |      198 |       20 |     90% |213, 231, 249, 255, 261, 279, 324, 330, 336, 342, 354, 360, 366, 372, 378, 384, 390, 396, 402, 405 |
 | python/hsml/engine/\_\_init\_\_.py                                               |        0 |        0 |    100% |           |
-| python/hsml/engine/local\_engine.py                                              |       46 |       26 |     43% |35-36, 39, 48-66, 84-103, 106-108, 111-113, 116, 119-122 |
+| python/hsml/engine/local\_engine.py                                              |       53 |       33 |     38% |36-42, 45-46, 49, 58-76, 94-113, 116-118, 121-123, 126, 129-132 |
 | python/hsml/engine/model\_engine.py                                              |      408 |      232 |     43% |82-102, 108-135, 145, 157-158, 168, 174-185, 203-232, 238-245, 258-278, 319-403, 406, 416-539, 592-594, 612, 617, 663-664, 669, 681, 684-685, 717-724, 735-738, 740, 746, 753-754, 770-771, 781-782, 814-816, 840-865, 868-885, 888-902, 905, 914, 924, 933, 942, 950, 967, 984 |
-| python/hsml/engine/serving\_engine.py                                            |      440 |      320 |     27% |82, 91, 100, 108, 113-150, 153-205, 208-246, 249-288, 291-311, 314-345, 348-351, 358-363, 366-367, 378-407, 413-420, 423-478, 481-508, 511-556, 611-625, 628-635, 638-663, 758-760, 797, 852-884, 894-902, 911-973, 985-1006, 1021-1025, 1030-1062 |
+| python/hsml/engine/serving\_engine.py                                            |      714 |      223 |     69% |51-52, 105, 114, 123, 131, 143, 145, 150-167, 184, 201, 218-220, 224-229, 232-270, 273-312, 315-335, 338-369, 382-387, 390-391, 402-431, 437-444, 447-502, 524, 526, 528, 576-603, 631, 655, 678, 889, 896, 907-914, 917-944, 1138, 1298, 1308-1310, 1430, 1513, 1538, 1542, 1551, 1556-1591, 1605, 1610, 1618, 1624, 1685-1700 |
 | python/hsml/inference\_batcher.py                                                |       77 |       10 |     87% |52, 83-85, 88, 108, 118, 128, 138, 141 |
 | python/hsml/inference\_endpoint.py                                               |       84 |        7 |     92% |54, 67, 109-111, 133, 155 |
 | python/hsml/inference\_logger.py                                                 |       66 |        8 |     88% |51, 93-95, 98, 114, 124, 127 |
 | python/hsml/kafka\_topic/\_\_init\_\_.py                                         |        2 |        0 |    100% |           |
 | python/hsml/llm/\_\_init\_\_.py                                                  |        0 |        0 |    100% |           |
-| python/hsml/llm/model.py                                                         |       15 |        8 |     47% |     73-80 |
+| python/hsml/llm/model.py                                                         |        8 |        2 |     75% |     72-73 |
 | python/hsml/llm/predictor.py                                                     |       14 |        0 |    100% |           |
 | python/hsml/llm/signature.py                                                     |       13 |        4 |     69% |     79-94 |
-| python/hsml/model.py                                                             |      352 |       61 |     83% |142-147, 153-168, 300, 341, 435, 474, 507-508, 582, 611, 626, 655-658, 720-728, 739, 751-757, 760, 791, 801, 811, 821, 831, 841, 851, 855, 865, 875, 879, 885, 889, 901, 911, 923, 933, 943, 952, 961, 970, 976, 980, 985, 988 |
+| python/hsml/model.py                                                             |      357 |       53 |     85% |144-149, 155-170, 302, 343, 485, 529, 562-563, 637, 668, 683, 712-715, 777-785, 796, 831, 862, 872, 882, 892, 902, 912, 922, 926, 936, 946, 950, 956, 960, 972, 982, 994, 1004, 1014, 1023, 1032, 1041, 1047, 1051, 1059 |
 | python/hsml/model\_registry.py                                                   |      192 |       25 |     87% |79-80, 100-105, 133, 160-169, 175, 181, 187, 316, 321, 333, 360, 412, 427, 439, 445, 451, 457, 463, 466-471 |
-| python/hsml/model\_schema.py                                                     |       20 |        5 |     75% |50, 57, 60-66 |
-| python/hsml/model\_serving.py                                                    |      258 |       32 |     88% |40-41, 103, 131, 175-179, 182-190, 199, 367, 530, 578, 720, 726, 732, 735, 849, 872, 879, 889, 894-895, 922, 924, 926, 928, 930 |
-| python/hsml/predictor.py                                                         |      452 |       45 |     90% |51, 187, 275, 283-285, 383, 487, 497, 507, 517-518, 528, 532, 539, 552-553, 569, 579, 593, 603, 613, 633, 643, 653, 671-674, 684, 704, 710, 714, 724, 734, 744, 846-858 |
+| python/hsml/model\_schema.py                                                     |       21 |        5 |     76% |60, 67, 70-76 |
+| python/hsml/model\_serving.py                                                    |      276 |       34 |     88% |40-41, 108, 136, 180-184, 187-195, 204, 243, 428, 514, 698, 750, 894, 900, 906, 909, 1023, 1046, 1053, 1063, 1068-1069, 1096, 1098, 1100, 1102, 1104 |
+| python/hsml/predictor.py                                                         |      759 |       71 |     91% |67, 136, 231, 408, 451, 459-461, 579, 704, 714, 724, 734-735, 745, 749, 784, 794, 808, 818, 828, 850, 862, 872, 882, 892, 930-933, 970, 1006, 1026, 1042, 1046, 1056, 1066, 1186, 1196-1210, 1234-1239, 1261, 1291, 1325-1327, 1349, 1381, 1383, 1387, 1410-1411, 1421, 1442-1443, 1473, 1478-1479, 1511, 1520 |
 | python/hsml/predictor\_state.py                                                  |       87 |       14 |     84% |53, 83-103, 160 |
 | python/hsml/predictor\_state\_condition.py                                       |       50 |        7 |     86% |42, 62-64, 67, 70, 97 |
 | python/hsml/python/\_\_init\_\_.py                                               |        0 |        0 |    100% |           |
 | python/hsml/python/endpoint.py                                                   |       10 |        0 |    100% |           |
-| python/hsml/python/model.py                                                      |       15 |        1 |     93% |        76 |
+| python/hsml/python/feature\_view\_endpoint.py                                    |        9 |        1 |     89% |        32 |
+| python/hsml/python/model.py                                                      |        8 |        0 |    100% |           |
 | python/hsml/python/predictor.py                                                  |        9 |        5 |     44% |     25-33 |
 | python/hsml/python/signature.py                                                  |       13 |        0 |    100% |           |
 | python/hsml/resources.py                                                         |      153 |       13 |     92% |51, 71, 84, 94, 104, 107, 149, 168, 203, 207, 237, 247, 250 |
-| python/hsml/scaling\_config.py                                                   |      209 |       28 |     87% |104, 108-109, 211-213, 217, 244, 254-263, 275, 285, 295, 305, 315, 325, 335, 338, 365, 379, 406, 416, 421 |
+| python/hsml/scaling\_config.py                                                   |      247 |       26 |     89% |93, 159, 294-296, 300, 329, 344-353, 370, 385, 399, 409, 419, 429, 439, 457, 485, 499, 527, 542 |
 | python/hsml/schema.py                                                            |       30 |        3 |     90% |72, 79, 82 |
 | python/hsml/sklearn/\_\_init\_\_.py                                              |        0 |        0 |    100% |           |
-| python/hsml/sklearn/model.py                                                     |       15 |        8 |     47% |     73-80 |
+| python/hsml/sklearn/model.py                                                     |        8 |        0 |    100% |           |
 | python/hsml/sklearn/predictor.py                                                 |        7 |        3 |     57% |     25-28 |
 | python/hsml/sklearn/signature.py                                                 |       13 |        4 |     69% |     79-94 |
 | python/hsml/tag/\_\_init\_\_.py                                                  |        2 |        0 |    100% |           |
 | python/hsml/tensorflow/\_\_init\_\_.py                                           |        0 |        0 |    100% |           |
-| python/hsml/tensorflow/model.py                                                  |       15 |        8 |     47% |     73-80 |
+| python/hsml/tensorflow/model.py                                                  |        8 |        2 |     75% |     72-73 |
 | python/hsml/tensorflow/predictor.py                                              |        9 |        5 |     44% |     25-33 |
 | python/hsml/tensorflow/signature.py                                              |       13 |        4 |     69% |     79-94 |
 | python/hsml/torch/\_\_init\_\_.py                                                |        0 |        0 |    100% |           |
-| python/hsml/torch/model.py                                                       |       15 |        8 |     47% |     73-80 |
+| python/hsml/torch/model.py                                                       |        8 |        2 |     75% |     72-73 |
 | python/hsml/torch/predictor.py                                                   |        9 |        5 |     44% |     25-33 |
 | python/hsml/torch/signature.py                                                   |       13 |        4 |     69% |     79-94 |
-| python/hsml/transformer.py                                                       |       69 |        7 |     90% |33, 74, 124-127, 146 |
+| python/hsml/transformer.py                                                       |       94 |        9 |     90% |33, 79, 138-141, 171, 179, 185 |
 | python/hsml/util/\_\_init\_\_.py                                                 |       18 |       18 |      0% |      5-22 |
 | python/hsml/utils/\_\_init\_\_.py                                                |        0 |        0 |    100% |           |
 | python/hsml/utils/local\_paths.py                                                |       50 |        1 |     98% |       133 |
@@ -464,7 +498,7 @@
 | python/hsml/utils/schema/tensor.py                                               |        8 |        0 |    100% |           |
 | python/hsml/utils/schema/tensor\_schema.py                                       |       34 |        0 |    100% |           |
 | python/hsml/version.py                                                           |        2 |        2 |      0% |     17-22 |
-| **TOTAL**                                                                        | **39583** | **12435** | **69%** |           |
+| **TOTAL**                                                                        | **50261** | **12932** | **74%** |           |
 
 
 ## Setup coverage badge
