@@ -492,6 +492,33 @@ class Project:
         )
 
     @public
+    def transfer_ownership(self, email: str) -> None:
+        """Hand the project over to another data owner of the project.
+
+        Only the current owner can do this.
+        The previous owner stays a data owner, so they can afterwards be removed with [`remove_member`][hopsworks_common.project.Project.remove_member].
+        This also works in projects whose members are managed by group mapping, since no membership changes.
+
+        Example:
+            ```python
+            import hopsworks
+
+            project = hopsworks.login()
+
+            project.transfer_ownership("carol@example.com")
+            project.remove_member("alice@example.com")
+            ```
+
+        Parameters:
+            email: Email address of the data owner who becomes the project owner.
+
+        Raises:
+            hopsworks.client.exceptions.RestAPIError: If the backend encounters an error when handling the request, for example if the caller does not own the project or the new owner is not a data owner of it.
+        """
+        self._project_members_api.transfer_ownership(email)
+        self._owner = email
+
+    @public
     def get_search_api(self) -> search_api.SearchApi:
         """Get the search api for the project.
 
